@@ -1,0 +1,882 @@
+[
+    {
+        "id": 0,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Urgent: Email Account Verification Required",
+        "body": "dear employee@target-company.com we noticed your e-mail account has almost exceed it's limit. you might not be able to send or receive messages if you do not update immediately. click here to verify now. kindly verify your e-mail account within the next 24hrs. regards. mail admin team",
+        "explanation": "Falso senso di urgenza (24 ore) e minaccia di blocco. Il testo interamente in minuscolo è un chiaro segnale di scarsa professionalità."
+    },
+    {
+        "id": 1,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "New Employee Policies and Portal Access Update",
+        "body": "As part of our ongoing commitment to enhancing employee satisfaction and productivity, we are pleased to announce the implementation of new policies. To ensure that you are fully informed, we kindly request that you log in to our online portal using the following link: http://suspicious-link.com/login. Once you have accessed the portal, please review the updated policies. Best regards, Human Resources",
+        "explanation": "Tono aziendale HR sofisticato. Nasconde il furto di credenziali dietro un finto aggiornamento delle policy aziendali da visualizzare tramite link."
+    },
+    {
+        "id": 2,
+        "difficulty_level": "LEGIT (Safe)",
+        "type": "LEGIT",
+        "subject": "Confirmation: Meeting on ... for Project XYZ Discussion",
+        "body": "Dear team, I am writing to confirm the details of our upcoming meeting in our conference room to discuss the progress for Project XYZ. Please come prepared to share your thoughts on the timeline and milestones. We will also be discussing the budget, so please bring any relevant materials. Best regards, Project Manager",
+        "explanation": "Comunicazione aziendale standard con dettagli specifici sul progetto. Non richiede login esterni o credenziali, ed è orientata al lavoro."
+    },
+    {
+        "id": 3,
+        "difficulty_level": "LEGIT (Safe)",
+        "type": "LEGIT",
+        "subject": "Project Phase 1 Completed",
+        "body": "Dear team, We are pleased to inform you that we have successfully completed the first phase of the project. Thank you for your hard work. Best regards, Management",
+        "explanation": "Semplice avviso interno di completamento lavori. Nessun link o richiesta di azioni da parte dell'utente."
+    },
+    {
+        "id": 4,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "New Health & Wellness Benefits: Enhanced Medical Coverage",
+        "body": "dear valued employee, as part of our ongoing commitment to providing you with the best possible benefits, we are pleased to announce changes to our health program. to ensure your continued enrollment, please log into the myhr portal by clicking on the link below before december 31. this is a mandatory process and failure to do so may result in a lapse of coverage. http://suspicious-link.com/login thank you, hr department",
+        "explanation": "Sfrutta l'interesse per i benefit medici. Forza l'utente a inserire credenziali usando la minaccia di 'perdita di copertura'."
+    },
+    {
+        "id": 5,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Payment Approved - Bank Account Details Required",
+        "body": "We have received and reviewed your recent invoice, and it has been approved. However, in order to process the payment, we need your bank account details so that we can transfer the funds directly. Please provide: Account holder name, Bank name, Account number, Routing/Sort Code. If you do not provide this information within 3 days, the payment will be cancelled. Best regards, Accounts Payable",
+        "explanation": "Frode BEC (Business Email Compromise). Richiedendo i dati bancari direttamente in risposta alla mail, elude i filtri antispam sui link."
+    },
+    {
+        "id": 6,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Account Suspension Notice (Update Information)",
+        "body": "dear customer, your account has been temporarily suspended due to security reasons. please click on the link below to update your details to continue using our service. http://suspicious-link.com/login kind regards, the team.",
+        "explanation": "Saluto generico ('dear customer') e minaccia immediata di sospensione. L'URL fornito è palesemente falso e non istituzionale."
+    },
+    {
+        "id": 7,
+        "difficulty_level": "LEGIT (Safe)",
+        "type": "LEGIT",
+        "subject": "Business trip for Mark next week",
+        "body": "hi louise , i ' m heading to the airport right now for a business trip . we will have to talk about this next week . best regards , mark",
+        "explanation": "Messaggio informale tra colleghi con dettagli personali contestuali. Del tutto privo di minacce o richieste sospette."
+    },
+    {
+        "id": 8,
+        "difficulty_level": "LEGIT (Safe)",
+        "type": "LEGIT",
+        "subject": "Meeting Reminder: Project XYZ Discussion",
+        "body": "Dear team, As we approach the end of next week, I would like to remind you of our upcoming meeting in our conference room. Your attendance and input are crucial for the success of project XYZ. Please ensure that all relevant documents are gathered. Looking forward to working with you. Best regards.",
+        "explanation": "Promemoria dettagliato per un incontro fisico in sala conferenze. Non spinge l'utente verso portali web esterni."
+    },
+    {
+        "id": 9,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "Updated Health Insurance Plan for Employees",
+        "body": "dear employee, the human resources department has made some significant changes to your health insurance plan effective september 1st. in order to ensure that your coverage remains up-to-date, we kindly ask you to confirm your enrollment status by clicking on the link below. this process is essential for maintaining accurate records. best regards, jessica martin human resources",
+        "explanation": "Finge una procedura standard delle Risorse Umane. L'uso di un nome specifico (Jessica Martin) aumenta la credibilità per indurre al click."
+    },
+    {
+        "id": 10,
+        "difficulty_level": "LEGIT (Safe)",
+        "type": "LEGIT",
+        "subject": "Request for Feedback on Project Proposal",
+        "body": "Dear colleagues, I am writing to request your feedback on the project proposal our team has been working on. Please find attached the most recent version of the proposal for your review (proposal_draft.pdf). If possible, please provide your thoughts by Friday so we can make adjustments before presenting to senior management. Best regards.",
+        "explanation": "Comunicazione di collaborazione su un documento interno. La richiesta di feedback ha scadenze ragionevoli e nessun tono minatorio."
+    },
+    {
+        "id": 11,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Updated invoice for your records",
+        "body": "Dear partner, We have received your recent payment and would like to thank you for choosing our services. As we promised in our previous communication, we are pleased to provide you with an updated invoice for your records. Please find attached the revised invoice with the new total amount due. Best regards. Attachment: invoice_updated.xlsx",
+        "explanation": "Altamente insidiosa perché si presenta come un innocuo ringraziamento. L'attacco avviene unicamente tramite l'apertura del foglio Excel malevolo allegato."
+    },
+    {
+        "id": 12,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Email Account Security Verification Required",
+        "body": "your account will be locked out soon due to recent unauthorized login attempts from an unknown location. please update your security question and answer to avoid being locked out of your e-mail account. click here to verify. sincerely mail team",
+        "explanation": "Classica esca del login non autorizzato. Errori di punteggiatura e la firma generica 'mail team' indicano un attacco automatizzato."
+    },
+    {
+        "id": 13,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Invoice Paid - Exclusive Discount Offer",
+        "body": "Dear customer, Thank you for your recent inquiry regarding our invoice. The amount has been successfully processed. As a valued customer, we would like to offer you an exclusive discount on your next purchase. To avail of this limited-time offer, please click the link below and enter the promo code. Best regards.",
+        "explanation": "Sfrutta un rinforzo positivo (uno sconto premio) dopo aver confermato il pagamento di una fattura fittizia, per abbassare completamente le difese della vittima."
+    },
+    {
+        "id": 14,
+        "difficulty_level": "LEGIT (Safe)",
+        "type": "LEGIT",
+        "subject": "Project XYZ Meeting Reminder - Your Input Needed",
+        "body": "Dear team, I am writing to remind you of our upcoming meeting on Thursday at 2:00 PM in Conference Room B. We will be reviewing the current state of the project. If for some reason you cannot make it, please send someone from your team who can represent you. Please review the project documentation beforehand. Best regards.",
+        "explanation": "Meeting request legittima. Offre piani di riserva (inviare un collega) e chiede preparazione sui documenti, tipico del project management reale."
+    },
+    {
+        "id": 15,
+        "difficulty_level": "LEGIT (Safe)",
+        "type": "LEGIT",
+        "subject": "London Meeting Cancelled - Next Steps on DPR",
+        "body": "vince , i am just leaving the office for london . i have not been able to get to the ees meeting today . will call you tomorrow morning about our next steps on the dpr. cheers - jim",
+        "explanation": "Email di testo semplice, diretta e ricca di acronimi aziendali (DPR, EES) usati contestualmente tra colleghi stretti."
+    },
+    {
+        "id": 16,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "Request for Feedback on New Product Launch",
+        "body": "Dear team member, please review the attached internal document regarding the upcoming product launch strategy. We require your comments by EOD to finalize the presentation. Attachment: Product_Launch_Strategy.docm",
+        "explanation": "Sfrutta l'urgenza di una scadenza lavorativa (End Of Day). Il file allegato (.docm) contiene macro malevole mascherate da strategia di prodotto."
+    },
+    {
+        "id": 17,
+        "difficulty_level": "LEGIT (Safe)",
+        "type": "LEGIT",
+        "subject": "Finalized Agenda for XYZ Project Meeting",
+        "body": "Dear team, I am pleased to inform you that we have finalized the agenda for our upcoming meeting. In preparation, please review the attached PDF document which outlines the proposed agenda. Please confirm your attendance by replying to this email. Best regards.",
+        "explanation": "Procedura standard per confermare un'agenda. Chiede una semplice risposta testuale invece di forzare clic o credenziali."
+    },
+    {
+        "id": 18,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "Employee Benefits Update: Review New Policies and Procedures",
+        "body": "Dear employee, we are implementing changes in our employee benefits program. To ensure a smooth transition, please log in to our internal system using your credentials. Failure to respond may result in automatic enrollment in the default benefit packages, which may not align with your preferences. Best regards, HR.",
+        "explanation": "Sfrutta la 'paura della scelta sbagliata' per spingere l'utente a effettuare il login su un portale contraffatto, minacciando un'iscrizione automatica non desiderata."
+    },
+    {
+        "id": 19,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Clarification on invoice for services provided",
+        "body": "Dear client, We are writing in response to your recent inquiry regarding the invoice we sent you. The total amount due includes the agreed-upon fee and a list of expenses incurred during the project. Please find attached a copy of the invoice for your reference. If you have any changes, please let us know so we can make adjustments. Best regards.",
+        "explanation": "Simulazione perfetta di una disputa di fatturazione. I toni sono estremamente accomodanti per spingere l'utente ad aprire la falsa fattura allegata."
+    },
+    {
+        "id": 20,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Urgent: Account Suspension Notice - Confirm Identity Now!",
+        "body": "Dear Customer, Your account has been suspended due to security reasons. Your account will be permanently deleted within the next 24 hours unless you confirm your identity by providing us with your password details. If you do not take action immediately, all of your personal data will be irreversibly lost.",
+        "explanation": "Minacce estreme (cancellazione permanente dei dati) e richiesta esplicita della password nel testo, un comportamento palesemente fraudolento."
+    },
+    {
+        "id": 21,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "Update Your Employee Benefits Package: Review and Accept Changes",
+        "body": "Dear employee, As part of our ongoing efforts to ensure compliance, we are implementing a new company-wide policy affecting your benefits. Please log in to our secure online portal using your usual credentials to review this material. To confirm your acceptance, click the 'Accept Changes' button. Failure to accept by Friday may result in the suspension of your benefits.",
+        "explanation": "Si camuffa da comunicazione di compliance aziendale. L'invito a usare 'le solite credenziali' mira a ingannare i dipendenti per catturare le loro password aziendali."
+    },
+    {
+        "id": 22,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Invoice Update - Review and Contact Us for Assistance",
+        "body": "dear employee, we received your request and have attached the requested document for your review. please find attached the updated version of the invoice. if you need any further assistance, do not hesitate to contact us. thank you for choosing microsoft office365. best regards, the microsoft team.",
+        "explanation": "Finge di rispondere a una richiesta inesistente dell'utente da parte di Microsoft, sfruttando la curiosità per far aprire il documento infetto allegato."
+    },
+    {
+        "id": 23,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Account Security Alert!!!",
+        "body": "Dear valued customer, We have detected strange login attempts on your account!!! Click the link below IMMEDIATELY to secure your data and reset your banking pin. http://suspicious-link.com/login",
+        "explanation": "Uso spropositato di punti esclamativi e inviti all'azione troppo diretti. L'URL è esposto e visibilmente falso."
+    },
+    {
+        "id": 24,
+        "difficulty_level": "LEGIT (Safe)",
+        "type": "LEGIT",
+        "subject": "Meeting Rescheduled - New Date and Time via Video Conferencing",
+        "body": "Dear team, I am writing to inform you of some updates to our upcoming meetings schedule. We had planned to meet in our conference room, but due to unforeseen circumstances, we will now be moving this meeting to Friday at 3 PM via video conferencing. Please let us know if you have any questions.",
+        "explanation": "Aggiornamento amministrativo e logistico standard. Spiega chiaramente i motivi del cambiamento senza link sospetti."
+    },
+    {
+        "id": 25,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Amazon Account Suspension Notice",
+        "body": "Dear Valued Customer, We regret to inform you that your Amazon account has been temporarily suspended. To reactivate your account, please click the link below and provide us with your login credentials: http://suspicious-link.com/login",
+        "explanation": "Il classico modello di truffa retail. Usa un mittente generico ('Valued Customer') e chiede le credenziali in chiaro."
+    },
+    {
+        "id": 26,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "Update on health benefits program and required action",
+        "body": "dear valued employee, as part of updating our hr policies, all employees will be required to complete an updated health assessment form in order to continue receiving coverage. please follow the instructions in the attached document to access the online form and submit your information by june 30th. best regards, hr department",
+        "explanation": "Il pericolo risiede nel falso modulo allegato (spesso un PDF con link a un sito di phishing) per sottrarre informazioni mediche e credenziali."
+    },
+    {
+        "id": 27,
+        "difficulty_level": "LEGIT (Safe)",
+        "type": "LEGIT",
+        "subject": "Project Phase 1 Completed - Next Steps Meeting Request",
+        "body": "Dear team, We are pleased to inform you that we have successfully completed the first phase of our project. We would like to schedule a follow-up meeting with you to discuss the next steps. Please let us know your availability over the next two weeks. Best regards.",
+        "explanation": "Aggiornamento sui traguardi di progetto aziendale. La richiesta è limitata al coordinamento delle disponibilità per un meeting."
+    },
+    {
+        "id": 28,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "Request for feedback on project proposal",
+        "body": "Dear colleague, I have drafted the new project proposal that management requested. I need your urgent feedback on section 3 before the review meeting tomorrow. Please check the secure document link below and login with your internal ID. Best, Management.",
+        "explanation": "Si finge un collega sotto pressione per una scadenza imminente. Costringe l'utente a cliccare un link per un 'documento protetto' per rubare l'ID interno."
+    },
+    {
+        "id": 29,
+        "difficulty_level": "LEGIT (Safe)",
+        "type": "LEGIT",
+        "subject": "Attached: updated schedule and agenda for next three weeks",
+        "body": "attached is the updated schedule for the next three weeks . as you can see , there are no changes to our usual time of 8 : 30 - 9 : 30 am on wednesday mornings . i have also attached the agenda and materials for this week ' s meeting . let me know if anything needs to be added.",
+        "explanation": "Uso del linguaggio informale ma operativo. Il riferimento al 'solito orario' indica una genuina routine aziendale preesistente."
+    },
+    {
+        "id": 30,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Account Suspension Notice: Verify Identity Now!",
+        "body": "Dear Valued Customer, We have detected suspicious activity on your account. We've temporarily suspended your access until you verify your identity by providing us with your password. Please click the following link: http://suspicious-link.com. If you do not complete this within 24 hours, your account will be closed.",
+        "explanation": "Palese truffa: chiede esplicitamente la password dell'utente e impone un ultimatum di 24 ore."
+    },
+    {
+        "id": 31,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Payment terms updated - Confirmation required - Invoice attached",
+        "body": "Dear client, Thank you for your inquiry regarding the invoice. Your request has been processed, and the payment details have been updated. We kindly ask you to confirm the new payment terms by reviewing the attached revised invoice reflecting the updated payment schedule. Best regards, Accounts.",
+        "explanation": "Prende di mira il reparto contabilità. Insinua che i termini di pagamento siano stati cambiati su richiesta del cliente, forzandolo ad aprire la finta fattura allegata."
+    },
+    {
+        "id": 32,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Update Payment Method - Urgent Notice",
+        "body": "dear user, your payment method has been expired, we recommend that you update your information immediately to avoid service interruption. click here to login and update your details: http://suspicious-link.com",
+        "explanation": "Errori grammaticali evidenti ('has been expired') e un immediato link per l'inserimento dei dati della carta di credito."
+    },
+    {
+        "id": 33,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "New Benefits Enrollment and Management System",
+        "body": "Dear valued employee, we have introduced a new online platform for managing your benefits enrollment. To access the new platform, please click on the following link and enter your login credentials. If you fail to make any changes by the end of the month, your current benefits selections will automatically roll over.",
+        "explanation": "Mimetizza un portale di furto credenziali presentandolo come un 'nuovo sistema gestionale' per i dipendenti."
+    },
+    {
+        "id": 34,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Payment Request - Please Confirm Information Now!",
+        "body": "dear customer, we are currently processing your recent payment request. the following information is required in order to complete the process. please click on the button below and follow the instructions to track payment status. regards, wells fargo online banking team",
+        "explanation": "Simula perfettamente un avviso di una banca reale (Wells Fargo), sfruttando l'ansia legata ai pagamenti in elaborazione per dirottare l'utente."
+    },
+    {
+        "id": 35,
+        "difficulty_level": "LEGIT (Safe)",
+        "type": "LEGIT",
+        "subject": "XYZ Project Update: Meeting Rescheduled",
+        "body": "Dear team, I am writing to inform you that the meeting for tomorrow at 10:00 AM in conference room B has been rescheduled. In my absence, I have requested the assistance of Marco who will lead the discussion instead. Please find attached the updated timeline. Best regards.",
+        "explanation": "Sostituzione di persona legittima all'interno di un flusso lavorativo, con indicazione chiara del nuovo responsabile e della sala riunioni."
+    },
+    {
+        "id": 36,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Invoice #1234567890 - Updated",
+        "body": "Dear client, Thank you for your recent inquiry regarding our invoice #1234567890. The invoice has been updated with the requested changes. We kindly request payment of the revised amount by Friday. Best regards. Attachment: Invoice_1234567890.pdf",
+        "explanation": "Livello di dettaglio altissimo (numero di fattura realistico) che fa breccia nelle difese dei dipendenti amministrativi spingendoli ad aprire il PDF malevolo."
+    },
+    {
+        "id": 37,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Verify Your Account Information Now!",
+        "body": "Dear Valued Customer, We are currently conducting routine system maintenance. To maintain uninterrupted service, please click the following link and provide your login credentials. Failure to respond within 24 hours will result in suspension. Best regards.",
+        "explanation": "La scusa della 'manutenzione dei sistemi' per richiedere password via email è un indicatore lampante di truffa non sofisticata."
+    },
+    {
+        "id": 38,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "New Employee Benefits Program Announced",
+        "body": "Dear employee, we are offering a range of additional benefits such as flexible working hours and on-site fitness facilities. Please take a few moments to complete the attached form, which includes questions related to your medical history and family details for processing. Best regards, HR.",
+        "explanation": "Il target è il furto di identità e di dati sensibili (storia medica, dettagli familiari) tramite un finto modulo di iscrizione a benefit aziendali."
+    },
+    {
+        "id": 39,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Updated Invoice for Your Review",
+        "body": "Dear client, Thank you for your recent inquiry. In response to your request, we have attached the updated invoice with the changes you requested. Please review the document carefully and let us know if there are any further adjustments needed. Best regards.",
+        "explanation": "L'email è breve, priva di urgenza e rassicurante. La completa assenza di campanelli d'allarme testuali rende l'allegato infetto difficilissimo da riconoscere."
+    },
+    {
+        "id": 40,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Email Account Verification Required!",
+        "body": "your e-mail account has been blacklisted! due to recent security concerns we suggest you verify your email now by clicking below button. if not verified within 24 hours, your account will be suspended permanently.",
+        "explanation": "Utilizza parole allarmistiche come 'blacklisted' e ignora le regole di punteggiatura di base."
+    },
+    {
+        "id": 41,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "Employee Benefit Policy Update - Review Required",
+        "body": "Dear employee, we have recently implemented updates in our employee benefit policies. We require all employees to review and acknowledge the new terms by the end of this month. Please find attached a comprehensive document outlining the updated policies. Kindly read through it and sign the form. Failure to respond may result in benefits suspension.",
+        "explanation": "Mascherata da task amministrativo obbligatorio. L'uso di minacce burocratiche spinge i dipendenti ad aprire l'allegato compromesso."
+    },
+    {
+        "id": 42,
+        "difficulty_level": "LEGIT (Safe)",
+        "type": "LEGIT",
+        "subject": "Meeting Confirmed: XYZ Team, August 24th",
+        "body": "Dear team, I am writing to confirm our upcoming meeting with XYZ on Monday at 10:00 AM in Conference Room B. As discussed, we will be reviewing the progress of our ongoing project. Please come prepared to share your insights. Best regards.",
+        "explanation": "Messaggio di conferma pulito, professionale e ricco di riferimenti spaziali (Sala B) tipici di un vero ufficio."
+    },
+    {
+        "id": 43,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Verify your email address to regain access",
+        "body": "your account has been locked for security reasons. please verify your email address to regain access to your account. verify now if you do not take this action, your account will be permanently disabled. regards, account team",
+        "explanation": "Testo piatto, assenza di maiuscole e firma impersonale. Tipico tentativo di phishing massivo."
+    },
+    {
+        "id": 44,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Payment Confirmation - Additional Information Required",
+        "body": "Dear client, We have received your request for payment. In order to process this transaction, we require your bank account number and routing number in order to initiate a wire transfer. This is our standard procedure for all payments over $10,000. Please find attached a copy of the updated invoice. Best regards.",
+        "explanation": "Attacco diretto al reparto finanziario. Specifica soglie di denaro ($10.000) e giustifica la richiesta di dati sensibili come 'procedura standard'."
+    },
+    {
+        "id": 45,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "New HR Policies and Employee Benefits Update",
+        "body": "Dear valued employee, we have recently implemented significant changes in our HR policies. We request your immediate attention to review the updated policy documents attached and confirm your acceptance by replying to this email. These updates cover compensation and health benefits. Best regards, HR.",
+        "explanation": "Costringe l'utente all'interazione (aprire un allegato e rispondere per dare il consenso) sfruttando argomenti sensibili come la retribuzione."
+    },
+    {
+        "id": 46,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Special Discount for You!",
+        "body": "Dear customer, We have received your recent payment for the invoice you submitted last week. As a token of our appreciation, we would like to offer you a special discount on your next purchase. Please click on the following link and enter the promo code provided below at checkout: http://suspicious-link.com.",
+        "explanation": "Sfrutta un sentimento di gratitudine aziendale. Molto subdola perché distrae la vittima con un codice sconto mentre il link la dirige verso un sito malevolo."
+    },
+    {
+        "id": 47,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Password Expiration Notice",
+        "body": "password will expire in 2 days. click here to validate e-mail thank you, it service help desk",
+        "explanation": "La brevità eccessiva e la mancanza assoluta di formattazione la rendono facilmente identificabile come frode."
+    },
+    {
+        "id": 48,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "Beneficiary Update Required for Employee Benefits Package",
+        "body": "Dear employee, Effective immediately, all employees are required to provide updated information about their beneficiaries to maintain the accuracy of our records. To facilitate this process, please log in to our secure online portal using your existing credentials to update your details. Failure to do so may result in suspension of benefits.",
+        "explanation": "Colpisce sul piano emotivo (i beneficiari in caso di emergenza) per bypassare la logica dell'utente e spingerlo al login fraudolento."
+    },
+    {
+        "id": 49,
+        "difficulty_level": "LEGIT (Safe)",
+        "type": "LEGIT",
+        "subject": "Request for Feedback on Marketing Campaign",
+        "body": "Dear team, I hope this email finds you well. As we approach the end of our current marketing campaign, I would like to request your feedback. We have been promoting our new product line with a focus on digital channels. Here are some specific questions: How do you think our messaging has resonated? What metrics should we focus on? Best regards.",
+        "explanation": "Discussione strategica reale. Richiede risposte testuali complesse senza alcun uso di link o download sospetti."
+    },
+    {
+        "id": 50,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Urgent: Verify your account now!",
+        "body": "dear employee@target-company.com , we have recently detected suspicious activity on your mailbox. for your security, your account has been temporarily blocked until you confirm ownership of this e-mail address. please click on the link below in order to verify your e-mail account. http://suspicious-link.com/login kind regards, customer service",
+        "explanation": "Uso massiccio di formule allarmistiche standard ('suspicious activity', 'temporarily blocked'). L'assenza di maiuscole e l'URL esposto e non ufficiale sono indicatori evidenti di truffa."
+    },
+    {
+        "id": 51,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "New Health Insurance Policy: Expanded Coverage for Employees",
+        "body": "Dear ..., As part of our ongoing commitment to enhancing employee benefits and ensuring compliance with regulatory requirements, we are pleased to announce an exciting new development in our company's health insurance program. In collaboration with our trusted partner, XYZ Insurance Company, we have introduced a new policy that will provide you with expanded coverage for medical expenses. Effective immediately, all eligible employees will be automatically enrolled in this new plan, which offers more comprehensive protection against unforeseen medical costs. This policy upgrade includes additional benefits such as dental care, vision coverage, and mental health services, among others. To facilitate the transition, we kindly request that you review your current beneficiary information and ensure that it is up-to-date. Please log into your online account at www.xyzinsurance.com/companyname using your unique credentials to confirm your details. If you experience any difficulties accessing your account or require assistance with the process, please do not hesitate to contact us at employee@target-company.com or .... We would like to emphasize that this policy update is mandatory for all eligible employees, and failure to provide accurate and updated beneficiary information may result in delays or issues with claim processing. Thank you for your cooperation, and we look forward to providing you with even greater peace of mind and financial security through this enhanced health insurance offering. Best regards, ... ... ...",
+        "explanation": "Sfrutta un tema plausibile e positivo (espansione della polizza sanitaria) per mascherare una minaccia di conformità. Forza l'utente a inserire credenziali in un portale assicurativo fittizio per 'non perdere i benefici'."
+    },
+    {
+        "id": 52,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Payment Confirmation & Additional Information Required for Invoice #123",
+        "body": "Dear ..., Thank you for your prompt response regarding the payment request for invoice #123456. We are pleased that you have approved the payment and we would like to confirm the details of the transaction. As per our internal accounting procedures, we require additional information from your end before we proceed with processing the payment. Please find attached a form that needs to be filled out with some basic company details. This will help us to ensure that the payment is processed accurately and in a timely manner. Kindly provide us with the required information as soon as possible so that we can process the payment without any further delay. If you have any questions or concerns, please do not hesitate to contact us at employee@target-company.com regards, ... Attachment: Company_Details_Form.xlsx",
+        "explanation": "Attacco mirato al reparto contabilità. Costruisce fiducia simulando un pagamento già 'approvato', per poi usare una scusa procedurale e far aprire un foglio Excel contenente malware."
+    },
+    {
+        "id": 53,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Request for Information on Marketing Collaboration with XYZ Company",
+        "body": "Dear Partner, Please review the details for our marketing collaboration. Click the link below to verify your participation. \n\nhttp://suspicious-link.com/login \n\nFailure to do so will cancel the agreement. Regards, XYZ Management",
+        "explanation": "Un'email con contenuto estremamente breve e vago, che passa subito a una minaccia (cancellazione dell'accordo) per far cliccare su un link non ufficiale."
+    },
+    {
+        "id": 54,
+        "difficulty_level": "LEGIT (Safe)",
+        "type": "LEGIT",
+        "subject": "Confirm Attendance: Project Meeting on ... at ... in Conference Room",
+        "body": "Dear ..., We are pleased to inform you that the meeting scheduled for next week has been confirmed. The meeting will take place on ... at ... in our conference room located at .... As previously communicated, the purpose of this meeting is to discuss the progress of our ongoing project, .... During the meeting, we will present the current status of the project, address any concerns you may have, and outline the next steps moving forward. Please confirm your attendance by replying to this email no later than .... We kindly request that you bring any relevant materials or documents related to the project to the meeting. If you have any questions or require further information, please do not hesitate to contact us. We look forward to seeing you soon. Best regards, ... ... ...",
+        "explanation": "Comunicazione organizzativa sicura. Richiede una semplice risposta testuale e la preparazione di documenti fisici/locali, senza inserimento di link esterni o richieste di dati sensibili."
+    },
+    {
+        "id": 55,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Additional Information Required for Invoice Review",
+        "body": "Dear ..., I am writing in response to our recent communication regarding the invoice you submitted for your services rendered to us. We appreciate your promptness and professionalism in providing us with the necessary documentation. After careful review of the invoice, we would like to request some additional information from you. Please provide us with a detailed breakdown of the costs associated with each item listed on the invoice. This will enable us to better understand the nature and value of the services provided. In addition, we kindly ask that you clarify any ambiguous items on the invoice. We have noticed that certain line items appear to be repeated, and we would like to ensure that we are not being charged for duplicate services. Please also include any relevant supporting documents or explanations to help us verify the accuracy of the charges. As a valued partner, we take our financial transactions very seriously, and we want to ensure that all invoices are processed accurately and efficiently. If you have any questions or concerns, please do not hesitate to contact me directly. Thank you for your cooperation, and we look forward to continuing our business relationship with you. Best regards, ... ...",
+        "explanation": "Estremamente convincente. Simula un tipico stallo burocratico (richiesta di chiarimenti su duplicati di fatturazione) per indurre la vittima a rispondere allegando documenti o dati finanziari riservati."
+    },
+    {
+        "id": 56,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Urgent: Verify Account Security",
+        "body": "Dear ..., We're sorry to inform you that your account has been compromised due to an unauthorized login attempt. To ensure the security of your personal data, we kindly ask you to verify your password as soon as possible by clicking on this link: ... Please do so immediately, as failure to respond within 24 hours will result in temporary suspension of your access to our services until further notice. If you did not initiate any such action, please disregard this message and contact us at employee@target-company.com for assistance. Thank you for your prompt attention to this matter. Best regards, ... ...",
+        "explanation": "Usa la paura di un account compromesso. La richiesta di cliccare su un link per 'verificare la password' entro 24 ore è un metodo basilare per il furto di credenziali."
+    },
+    {
+        "id": 57,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "New Employee Benefits Program and Updates Required",
+        "body": "Dear ..., We are pleased to inform you that our organization has decided to implement a new employee benefits program, effective immediately. This program is designed to provide our valued employees with additional resources and support to help them achieve their professional and personal goals. As part of this initiative, we will be requiring all staff members to update their personal information and confirm their beneficiaries in order to ensure accurate and timely processing of any claims related to these benefits. To facilitate this process, please log in to your Employee Self-Service (ESS) account using your existing credentials and follow the instructions provided to complete the necessary updates. If you have forgotten your ESS login details, please contact our IT department for assistance. In addition, we would like to take this opportunity to remind you of our organization's commitment to data privacy and security. All sensitive information collected as part of this process will be handled confidentially and in accordance with our privacy policies. Please do not hesitate to reach out to us if you have any questions or concerns about this matter. Thank you for your cooperation in updating your information and confirming your beneficiaries. We appreciate your continued dedication to our organization and look forward to providing you with even more valuable resources and support moving forward. Best regards, ... ... ...",
+        "explanation": "Utilizza il contesto dei benefit aziendali per mascherare il furto di dati. Il falso richiamo alle 'policy di privacy' è una tecnica manipolatoria per abbassare le difese dell'utente mentre lo si spinge a loggarsi su un portale malevolo."
+    },
+    {
+        "id": 58,
+        "difficulty_level": "LEGIT (Safe)",
+        "type": "LEGIT",
+        "subject": "Proposed Changes to Risk Report Format",
+        "body": "louise , i am planning to make some changes in the format of the risk report . i would like to have separate sections for Corporate HQ americas and Corporate HQ global markets with the exception of power which will be consolidated under a single section ( as it is now ) . this information can then be presented first and followed by any issues / recommendations that require action on your part . do you have any preference either way ?",
+        "explanation": "Una email lavorativa informale, ma precisa. Parla di modifiche a report interni e chiede semplicemente un parere o una preferenza, senza link o urgenze."
+    },
+    {
+        "id": 59,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Account Suspension - Verify Credentials",
+        "body": "Dear ..., We are sorry to inform you that your account has been temporarily suspended due to suspicious activity detected on it. This suspension is part of our routine security measures to ensure the integrity and confidentiality of our users' data. To restore access to your account, we kindly ask you to verify your credentials by clicking the following link and entering your username and password: .... Please be advised that this procedure aims at reinforcing the protection of your account against unauthorized access or misuse. Failure to complete this verification process within the next 24 hours will result in a permanent deactivation of your account. Thank you for your cooperation and understanding in this matter. Best regards, ... ... ...",
+        "explanation": "Minaccia di disattivazione permanente in 24 ore unita alla richiesta esplicita di inserire 'username e password' in un link, una pratica mai attuata da aziende vere."
+    },
+    {
+        "id": 60,
+        "difficulty_level": "LEGIT (Safe)",
+        "type": "LEGIT",
+        "subject": "Project X Update: Development Phase Completed Successfully",
+        "body": "Dear ..., I am writing to provide you with an update on the progress of our ongoing project, Project X. As you know, this initiative aims to enhance our company's operations by implementing new technologies and processes that will streamline our workflows and improve efficiency. Since our last communication, we have made significant strides in achieving these objectives. Our development team has completed the initial phase of coding and testing, which has yielded positive results. We have identified some minor issues that require addressing, but overall, the software is functioning as expected. In light of this, I would like to propose that we schedule a meeting to discuss next steps and refine our implementation plan. This meeting will provide us with an opportunity to address any remaining concerns, clarify expectations, and ensure that we are all aligned on the project timeline and deliverables. Please let me know your availability over the next two weeks, and I will arrange for a suitable time and location. If you prefer, we can also conduct the meeting remotely via videoconferencing. Thank you for your continued support and collaboration on this project. I look forward to updating you further on our progress. Best regards, ...",
+        "explanation": "Tipica email di resoconto tecnico/manageriale. Conclude chiedendo la disponibilità per una futura riunione, senza forzare alcuna azione immediata."
+    },
+    {
+        "id": 61,
+        "difficulty_level": "LEGIT (Safe)",
+        "type": "LEGIT",
+        "subject": "Meeting Rescheduled: New Date and Time Confirmed",
+        "body": "Dear ..., We are writing to inform you that the meeting we had previously scheduled for next week has been rescheduled due to unforeseen circumstances. The new date and time of the meeting will be on ... at ... in our office located at .... We apologize for any inconvenience this may cause and we assure you that we will make every effort to ensure that the meeting is productive and beneficial for all parties involved. Please let me know if there are any changes to your availability, and we will do our best to accommodate them. In the meantime, please find attached the updated agenda for the meeting. If you have any questions or concerns, please do not hesitate to contact us. Thank you for your understanding, and we look forward to seeing you soon. Best regards, ... ...",
+        "explanation": "Riprogrammazione standard di una riunione. Fornisce un allegato di 'agenda' coerente con il contesto e offre flessibilità per venire incontro all'utente."
+    },
+    {
+        "id": 62,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Account Suspension Notification: Verify Identity & Reactivate Account",
+        "body": "Dear ..., We are sorry to inform you that your account has been temporarily suspended due to unusual activity on your account. In order to reactivate your account please click the following link below and follow the instruction to verify your identity. Failure to complete this action will result in permanent termination of your account. Please click the button below to begin the verification process. ... Thank you for your cooperation. Best Regards, The Account Management Team at ...",
+        "explanation": "Messaggio standard e non personalizzato ('Account Management Team'). Usa il pretesto dell'attività insolita per estorcere dati anagrafici o credenziali sotto minaccia."
+    },
+    {
+        "id": 63,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "New Benefits Enrolment Procedures - Re-Enrol Now",
+        "body": "dear employee, this is to inform you that we have updated our company policies concerning the enrolment and management of staff benefits. as part of these changes, all employees are required to re-enroll in order to continue enjoying the same benefits package. please find attached the new benefits enrolment form which outlines the new procedures for enrolling and managing your benefits. kindly take some time to read through and understand the new procedures before proceeding with the enrolment process. if you do not wish to continue receiving benefits, no further action is required on your part. however, should you choose to continue enjoying the benefits package, please follow the instructions provided in the attached document. sincerely, human resources department",
+        "explanation": "Approccio sofisticato che simula indifferenza ('se non desideri i benefit, ignora'). Questo trucco psicologico rassicura l'utente e lo spinge ad aprire il modulo malevolo allegato di propria spontanea volontà."
+    },
+    {
+        "id": 64,
+        "difficulty_level": "LEGIT (Safe)",
+        "type": "LEGIT",
+        "subject": "Meeting Agenda Update - Project XYZ Discussion Added",
+        "body": "Dear ..., We are writing to inform you that we have updated the agenda for our upcoming meeting on .... As per your request, we have added a new item to discuss the recent developments in our project XYZ. Our team has made significant progress since our last meeting and we would like to share these updates with you. During the meeting, we will present a detailed report on the current state of the project, including any challenges encountered and proposed solutions. We will also provide an overview of the timeline and resources required to complete the project by the deadline. In addition, we will be discussing the potential impact of the project on our overall business strategy and how it aligns with our company's goals. Please let us know if there is anything else you would like us to cover during the meeting. We look forward to meeting with you soon and updating you on our progress. Best regards, ...",
+        "explanation": "Aggiunta di un punto all'ordine del giorno di una riunione. Costruisce contesto citando 'richieste precedenti' e si limita a informare."
+    },
+    {
+        "id": 65,
+        "difficulty_level": "LEGIT (Safe)",
+        "type": "LEGIT",
+        "subject": "Project XYZ Meeting Reminder - ... at ...",
+        "body": "Dear ..., I hope this email finds you well. As we approach the end of the quarter, I would like to remind you about our upcoming meeting regarding the Project XYZ. The meeting is scheduled for ... at ... in our conference room on the ... floor. During the meeting, we will discuss the current progress of the project, any challenges that have arisen, and potential solutions. We will also review the timeline and budget to ensure we are on track to meet our goals. Please come prepared to share any updates or concerns related to the project. If you have not already done so, please also ensure that all necessary resources are allocated for the project's success. In order to facilitate an efficient and productive meeting, I kindly request that you confirm your attendance by replying to this email no later than .... This will allow us to make any necessary arrangements and ensure that everyone who needs to be there is present. Thank you for your continued support of this important initiative. I look forward to seeing you at the meeting. Best regards, ...",
+        "explanation": "Promemoria molto dettagliato che fornisce location, piano e scopi del meeting. Chiede solo di 'rispondere alla mail' per confermare la presenza."
+    },
+    {
+        "id": 66,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "Employee Benefits Program Update - Review and Acceptance Required",
+        "body": "Dear valued employee, We are pleased to inform you that our company is implementing some important changes in our employee benefits program, effective from the upcoming month of May. As part of this initiative, we will be providing additional health coverage options and enhancing our retirement plans to better meet your needs. To ensure a smooth transition for all employees, we kindly request that you review and accept these new terms by updating your personal information and preferences on our online portal by the end of April. This process will only take a few minutes of your time and will allow us to accurately provide you with the most suitable benefits package based on your individual requirements. Please follow the instructions provided below to complete this process: 1. Log in to your account on our online portal using your usual credentials. 2. Navigate to the \"Benefits\" section and select \"Update Benefits.\" 3. Review the new terms and conditions carefully and make any necessary adjustments to your selected benefits. 4. Confirm your choices and submit your updated information. If you have any questions or concerns about this process, please do not hesitate to contact our HR department at .... Thank you for your cooperation in this matter, and we look forward to continuing to support your professional growth and well-being. Best regards, HR",
+        "explanation": "Esche positive (nuove opzioni sanitarie e pensione) usate per nascondere istruzioni pericolose: loggarsi con 'credenziali abituali' su un portale online per aggiornare dati sensibili."
+    },
+    {
+        "id": 67,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Order Confirmation - Invoice #123456",
+        "body": "Dear ..., We appreciate your recent purchase and would like to confirm the details of your order. As per our previous communication, the invoice number for this transaction is #123456. The total amount charged to your account is $987.65. Attached you will find a copy of the invoice for your review. If you have any questions regarding this invoice, please do not hesitate to contact us at employee@target-company.com regards, John Doe Accounts Manager XYZ Company P.S.: You can also access your invoices online via our secure portal at www.example.com/invoices. Simply log in using your username and password to view and download your invoices. Thank you for your business, and we look forward to continuing our partnership with you.",
+        "explanation": "Crea panico nel ricevente per un addebito inesistente ma specifico ($987.65). Offre una 'soluzione' tramite finto allegato PDF infetto o link di phishing per contestare la fattura."
+    },
+    {
+        "id": 68,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "... IMPORTANT NOTICE: ACCOUNT SUSPENSION ALERT",
+        "body": "Dear Valued Customer, Your account is about to be suspended due to unusual login activity from an unrecognized device or browser. We believe your password has been compromised by hackers! In order to protect your personal information, we kindly request you to click on this link below and confirm your identity immediately by providing us with your updated password details. ... Please take action as soon as possible, failure to do so will result in permanent suspension of your account without any prior notice. Thank you for your prompt attention to this matter. Best regards, ... Password Verification Team",
+        "explanation": "Uso esagerato di termini spaventosi ('hackers', 'compromised'). Un team di sicurezza reale non chiederebbe mai i dettagli aggiornati della password tramite link."
+    },
+    {
+        "id": 69,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "Request for Feedback on New Product Proposal",
+        "body": "Dear team, Please review the attached secure document containing the new product proposal. Your feedback is required before tomorrow's board meeting. Click the link to access the SharePoint file. Regards, Product Management",
+        "explanation": "Email breve che simula un finto flusso di lavoro interno (uso di SharePoint). Pone una scadenza a breve termine per abbassare l'attenzione dell'utente sul link malevolo."
+    },
+    {
+        "id": 70,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Invoice Update: Revised Total Amount Due",
+        "body": "Dear ..., Thank you for your recent inquiry regarding the invoice we sent to you. We appreciate your business and are committed to providing excellent customer service. In response to your request, please find attached the updated invoice with the revised total amount due. As discussed, we have adjusted the pricing based on the additional items you requested. Kindly review the new document and let us know if everything looks correct. If you have any questions or concerns, please do not hesitate to contact us. Best regards, ... ...",
+        "explanation": "Email estremamente pericolosa perché fa riferimento a 'richieste precedenti' o 'oggetti addizionali', spingendo il reparto acquisti ad aprire immediatamente la fattura (malware) per verificare gli importi."
+    },
+    {
+        "id": 71,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Urgent: Verify your account now!",
+        "body": "Dear ..., We are aware of your recent login activity on our website, and we have detected some suspicious behavior that requires your immediate attention. To ensure the security of your account, please follow these simple steps to verify your identity: 1. Click here to access the verification page: 2. Enter your username and password in the provided fields. 3. Once you've successfully verified your information, your account will be secured and you can continue browsing without any further interruption. Please complete this process as soon as possible to avoid any potential disruptions or breaches in your account's privacy. Thank you for your cooperation in keeping your account safe. Best regards, The ... Team",
+        "explanation": "Template standard in cui si richiede l'accesso a una pagina di 'verifica' (phishing) inserendo esplicitamente username e password in risposta a 'comportamenti sospetti'."
+    },
+    {
+        "id": 72,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "New Employee Benefits Program Announcement",
+        "body": "Dear valued employee, We are pleased to inform you that our company is making some exciting changes to our employee benefits program as part of our ongoing commitment to attract and retain the best talent in the industry. As part of this update, we will be introducing new health insurance options, a flexible spending account (FSA) program, and an expanded retirement savings plan. To ensure that all eligible employees have access to these new benefits, we kindly request your assistance with updating your personal information in our HR system. This information will be used to determine your eligibility for each benefit, so it's essential that it's accurate and up-to-date. Please follow the instructions below to complete this process: 1. Log in to the HR portal using your usual credentials. 2. Navigate to the \"Personal Information\" section and review your details. 3. Make any necessary updates or corrections, ensuring that all fields are completed accurately. 4. Once you've finished, click the \"Save\" button at the bottom of the page. If you require any assistance during this process, please don't hesitate to contact our HR department at employee@target-company.com you for your cooperation, and we look forward to offering you even more valuable benefits as a result of this update. Best regards, ...",
+        "explanation": "Utilizza promesse di benefit allettanti (fondi pensione, FSA) per persuadere il dipendente a seguire una falsa guida passo-passo che porta al furto delle sue credenziali interne."
+    },
+    {
+        "id": 73,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Invoice for requested products/services attached. Review and approve changes",
+        "body": "Dear ..., We would like to thank you for your recent inquiry regarding our services. As we previously discussed, we are pleased to confirm that we can provide the requested products/services at the agreed-upon price and delivery schedule. Attached please find the updated invoice for your review and approval. Kindly let us know if there are any changes or discrepancies so we can address them promptly. In case you have already made payment, we appreciate your business and look forward to continuing our partnership. If not, kindly make the necessary arrangements as soon as possible to avoid any potential delays in delivery. Best regards, ... ... ...",
+        "explanation": "Non contiene minacce né allarmi, ed è scritta in un inglese professionale perfetto. Nasconde il suo intento nocivo fingendosi un allegato di fatturazione in attesa di approvazione."
+    },
+    {
+        "id": 74,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Verify Account Immediately - Urgent Notice!",
+        "body": "Dear Valued Customer, We are sorry to inform you that your account has been suspended due to some suspicious activity detected on it. Your immediate action is required in order to verify and reactivate your account as soon as possible. In compliance with our security protocols, we kindly request you to click on this link below and provide us with your updated login credentials (username and password). This will allow us to verify your identity and re-establish full access to your account. Failure to follow these instructions within the next 24 hours may result in permanent deactivation of your account. Please be advised that we will never ask for sensitive information via email, but given the unusual nature of this situation, we have made an exception for you. Kind regards, ... ...",
+        "explanation": "Contiene una contraddizione palese: dichiara 'non chiederemo mai informazioni sensibili via email' ma poi dice 'abbiamo fatto un'eccezione per te'. Tecnica elementare di phishing."
+    },
+    {
+        "id": 75,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "New Employee Benefits Program: Streamlined Online Enrollment Now Available!",
+        "body": "Dear valued employee, We are pleased to inform you that we have made some updates to our employee benefits program effective immediately. These changes will enhance the overall value and flexibility of your benefits package, allowing you to better manage your health and wellbeing. As part of this new initiative, we have introduced a new online enrollment process for all employees. This streamlined system will make it easier for you to review and select your preferred benefits options, as well as provide real-time feedback on your coverage choices. To access the new enrollment platform, please click the following link: ... You will be prompted to log in using your existing HR account credentials. If you do not already have an HR account, instructions on how to create one can be found on our company intranet. The new enrollment process is now mandatory for all employees and must be completed by . Failure to do so may result in the suspension or termination of your current benefits coverage. Please take the time to carefully review the updated benefits materials provided on the enrollment website, and contact HR if you have any questions or concerns. Thank you for your continued dedication to our organization, and we look forward to your prompt action in completing the new enrollment process. Best regards, HR Department",
+        "explanation": "Combina la comodità di un 'nuovo sistema rapido' con l'obbligatorietà ('processo mandatorio'). Il link mira a intercettare gli account HR dei dipendenti."
+    },
+    {
+        "id": 76,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Verify Account Now !!!",
+        "body": "hi employee@target-company.com, we have been notified that your account has exceeded its limit and needs to be verified immediately. kindly click here to update your information and continue using our service. thanks, online team",
+        "explanation": "Sebbene usi toni base, il suo punto di forza come attacco mirato è l'uso esatto dell'email del dipendente per eludere i filtri antispam come se fosse una notifica di sistema interna."
+    },
+    {
+        "id": 77,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Urgent: Account Suspension Notice",
+        "body": "Dear ..., We are sorry to inform you that your account is at risk due to suspicious activity. Please follow these steps immediately in order to protect your information. Firstly, click on this link to confirm your identity: ... If you fail to respond within the next 24 hours, we will be forced to permanently suspend your account without further notice. Thank you for your cooperation. Best regards, ... Password Verification Team.",
+        "explanation": "L'uso di ultimatum (24 ore) e di nomi di dipartimenti fittizi e ridicoli come 'Password Verification Team' rendono la truffa evidente."
+    },
+    {
+        "id": 78,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "New Company Policies and Benefits Package Update",
+        "body": "Dear ..., We are pleased to inform you that as part of our ongoing efforts to streamline our internal processes and enhance employee satisfaction, we have recently made some significant changes to our company policies and benefits package. These updates are designed to better align with the needs and expectations of our valued workforce, and we believe they will provide you with greater flexibility, autonomy, and overall job satisfaction. In order to ensure that all employees are fully aware of these new developments, we kindly request your immediate attention to review and acknowledge the updated policies and benefits by clicking on the following link: ... Please be advised that failure to respond within the next 48 hours may result in the suspension of certain privileges and access rights, including but not limited to email accounts, network resources, and building entry credentials. If you encounter any difficulties accessing the link or require further assistance, please do not hesitate to contact us at .... Thank you for your cooperation and continued commitment to our organization. Best regards, ... HR Department XYZ Corporation",
+        "explanation": "Minaccia in modo credibile l'accesso a risorse aziendali tangibili (badge dell'edificio, email) se non si seguono le istruzioni fornite via link."
+    },
+    {
+        "id": 79,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Revised Invoice with Discount Attached",
+        "body": "Dear ..., Thank you for your prompt response regarding the invoice we sent earlier this week. We are pleased that you found our services satisfactory and look forward to continuing our business relationship with you. As per our discussion, we have attached the revised invoice with the discounted amount. Kindly review it carefully and let us know if there is anything else we can assist you with. If you have any queries regarding the payment process, please do not hesitate to contact us at .... Our team is available 24/7 to help you out. Best regards, ... ... P.S.: Please find the attachment below. ...",
+        "explanation": "Menzione di sconti concordati in 'discussioni precedenti'. Nessuna richiesta di pagamento immediato, la trappola risiede esclusivamente nel file allegato malevolo."
+    },
+    {
+        "id": 80,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Urgent: Verify your email account now!",
+        "body": "dear user, your email account has been compromised! we have received multiple reports of suspicious activity on your e-mail account. your mailbox is almost full please verify your account to avoid any further complications. verify now this message is auto-generated from security server, and replies sent to this email can not be delivered.",
+        "explanation": "Mischia confusionariamente diverse scuse (account compromesso + casella piena) con formattazione assente. Un palese tentativo di spamming di basso livello."
+    },
+    {
+        "id": 81,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "Insurance Premiums Due for 2024 - Act Now!",
+        "body": "dear employee, your health and dental insurance premiums are now due for the year 2024. if you do not make payment by wednesday march 7th, your coverage will be terminated with immediate effect. to confirm your payment details click here . kindly disregard this message if you have already made payment. regards, human resources department",
+        "explanation": "Appare come una nota aziendale urgente. Aggiunge credibilità chiedendo di 'ignorare il messaggio se si è già pagato', un classico delle email istituzionali reali."
+    },
+    {
+        "id": 82,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Invoice for ... - Payment Due ...",
+        "body": "Dear ..., Thank you for your recent inquiry regarding the invoice we sent to your company. We appreciate your business and are committed to providing excellent service. In response to your request, we have attached a copy of the invoice for your review. Please find the details below: ... If you have any questions or concerns regarding this invoice, please do not hesitate to contact us at ... or .... We value your partnership with our company and look forward to continuing to work together. Best regards, ... ...",
+        "explanation": "Una email BEC impeccabile. Risponde a una finta indagine dell'utente per spingerlo ad aprire un allegato infetto senza generare il minimo sospetto."
+    },
+    {
+        "id": 83,
+        "difficulty_level": "LEGIT (Safe)",
+        "type": "LEGIT",
+        "subject": "Meeting Rescheduled: New Date & Time",
+        "body": "Dear ..., I am writing to inform you that our upcoming meeting scheduled for next week has been rescheduled due to unforeseen circumstances. The new date and time of the meeting will be on ... at .... We apologize for any inconvenience this may cause and we understand if you are unable to attend at the new time. As a reminder, the purpose of this meeting is to discuss project progress. Please come prepared with any questions or concerns you may have. Best regards.",
+        "explanation": "Aggiornamento lavorativo comune. Cortese, richiede preparazione per un meeting fisico/online ma non presenta link ingannevoli o minacce."
+    },
+    {
+        "id": 84,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "Your Salary Has Been Increased! Click Here to View Details.",
+        "body": "dear valued employee, we are happy to inform you that your salary has been increased as part of our ongoing commitment to reward our employees for their hard work and dedication. please click on the link below to view your new salary details. ... kindly provide us with all necessary information so that we can process your updated salary details accordingly. best regards, human resources department",
+        "explanation": "Sfrutta un'esca irresistibile (l'aumento di stipendio) per spingere l'utente a inserire i propri dati personali e bancari in un form contraffatto."
+    },
+    {
+        "id": 85,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Request for Feedback on Project XYZ",
+        "body": "Hi, attached is the performance document for the team discussed last week. Could you review the figures on page 3? Thanks.",
+        "explanation": "Brevissima e mirata (Spear Phishing). Simula perfettamente un messaggio veloce tra colleghi o manager usando un allegato dannoso."
+    },
+    {
+        "id": 86,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Verify Account: Urgent Action Required",
+        "body": "Dear valued Customer, We have noticed some suspicious activity on your account. Due to this reason we need you to verify your credentials as soon as possible to ensure that your account is secured. Your action is required immediately, please click the following link to update your password: ... If you do not take this necessary precautionary measure within the next 48 hours, your account will be suspended until further notice. Best Regards, Account Security Team (Do NOT reply to this email)",
+        "explanation": "Classico tentativo di phishing. Crea allarme (48 ore) e blocca le comunicazioni chiedendo di 'non rispondere alla mail'."
+    },
+    {
+        "id": 87,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "Update on Employee Benefits Program and Required Acceptance of New Policies",
+        "body": "Dear ..., We are pleased to inform you that our company has recently updated its employee benefits program in line with the latest industry standards and legal requirements. As part of this initiative, we have introduced new policies aimed at enhancing the overall well-being and job satisfaction of our workforce. In light of these changes, we would like to request your immediate attention to review and accept the updated policies by clicking on the following link: ... Please be advised that failure to respond within the next 48 hours may result in the suspension of certain benefits and privileges until such time as the necessary documentation is provided. Should you require any further information or clarification, please do not hesitate to contact us via email at ... or by phone at .... Thank you for your cooperation and continued dedication to our organization. Best regards, ... ... ...",
+        "explanation": "Usa il gergo legale aziendale ('legal requirements', 'documentation') per far sembrare il link una normale procedura interna."
+    },
+    {
+        "id": 88,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Invoice Correction & Data Security Assurance",
+        "body": "Dear ..., Thank you for your recent inquiry regarding the invoice we sent you last week. We appreciate your business and are committed to providing exceptional service. In response to your request, we have attached the updated invoice with the corrected amounts. Please review it carefully and let us know if you have any further questions or concerns. As a valued customer, we want to assure you that we take the security of your data very seriously. Our company follows strict protocols to protect sensitive information, including encrypting all communication between our systems and yours. If you have any concerns about the security of your data, please do not hesitate to contact us directly. Once again, thank you for choosing our products/services. We look forward to continuing our partnership with you. Best regards, ... ... Attachment: Invoice (PDF)",
+        "explanation": "Subdola tattica di 'Reverse Psychology': l'email parla apertamente di quanto il mittente tenga alla 'sicurezza dei dati', tranquillizzando la vittima prima di fargli aprire l'allegato infetto."
+    },
+    {
+        "id": 89,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Urgent: Verify Account Security Immediately!",
+        "body": "Dear ..., We are writing to inform you that we have detected some suspicious activities on your account, which requires an immediate action from your side. Due to this reason, we kindly request you to verify your login credentials at the earliest possible time by clicking on the link below and providing us with the necessary information. Failure to do so within 24 hours will result in temporary suspension of your account until all security protocols are met. Please click here to proceed with the verification process: ... Kind Regards, ...",
+        "explanation": "Un messaggio preconfezionato standard. Richiesta frettolosa di 'credenziali di login' sotto la falsa minaccia di blocco dell'account."
+    },
+    {
+        "id": 90,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "Update Your Health Information for Enhanced Coverage",
+        "body": "Dear valued employee, We are pleased to inform you that our organization has recently implemented a new policy regarding employee benefits. As part of this initiative, we will be providing all employees with additional health coverage starting from the first day of next month. To ensure that your details are accurately updated in our system, we kindly request you to confirm your personal and health information by clicking on the following link: ... Please provide us with the necessary details as soon as possible so that we can process your application promptly. If you have any questions or concerns, please do not hesitate to contact us at .... Thank you for your cooperation in this matter. Best regards, ... ...",
+        "explanation": "Maschera una raccolta di dati sensibili (health information) dietro l'attivazione di nuove e migliori coperture sanitarie."
+    },
+    {
+        "id": 91,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Thank you for your payment - Special discount offer",
+        "body": "Dear ..., Thank you for your recent payment of the invoice we sent you. We are pleased to inform you that your account is now up-to-date and in good standing. As promised, we would like to offer you a special discount on our products and services as a token of our appreciation. Please find attached our latest product catalog with detailed descriptions and prices. Kindly review it carefully and let us know if you have any questions or need further assistance. In addition, we would like to request your feedback on the payment process. Was it smooth and easy? Did you encounter any issues or difficulties? Your input will help us improve our operations and better serve our valued clients like yourself. Once again, thank you for choosing our company as your trusted partner. We look forward to continuing our successful collaboration. Best regards, ... ...",
+        "explanation": "Il falso 'catalogo prodotti' allegato è il vettore d'infezione. Il pretesto è altamente rassicurante e incentrato sull'apprezzamento del cliente."
+    },
+    {
+        "id": 92,
+        "difficulty_level": "LEGIT (Safe)",
+        "type": "LEGIT",
+        "subject": "Update on Project XYZ: Product Requirements Finalized",
+        "body": "Dear ..., I am writing to inform you of the latest developments in our ongoing collaboration on Project XYZ. Our team has made significant progress since our last meeting, and we are now at a crucial stage in the project's lifecycle. As you may recall, our initial discussions focused on developing a new software solution that would address the specific needs of your organization. After extensive research and analysis, we have finalized the product requirements and have begun coding the application. We are pleased to report that the development process is proceeding smoothly, and we expect to deliver the first prototype by .... This milestone will allow us to gather feedback from your team and refine the product based on your input. Once we have incorporated your suggestions, we will proceed with the remaining phases of the project, including testing, deployment, and support. Throughout this process, we will keep you informed of any updates or changes. Please let us know if you have any questions or concerns as we move forward. We value your partnership and look forward to delivering a successful project together. Best regards, ...",
+        "explanation": "Riassunto formale dello stato di un progetto software. Pur menzionando 'sviluppo', non ci sono link a codice sorgente, allegati ambigui o urgenze."
+    },
+    {
+        "id": 93,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "...: Update of Employee Benefits Program",
+        "body": "Dear valued employee, We are pleased to inform you that our company has implemented a new policy aimed at enhancing the overall well-being and job satisfaction of all employees. As part of this initiative, we have decided to introduce some significant changes in our employee benefits program. In light of these updates, we request your immediate attention to review and accept the updated terms and conditions by clicking on the following link: ... Please be advised that failure to acknowledge and agree to these changes will result in the suspension of certain benefits until such time as you have reviewed and accepted them. We appreciate your cooperation and understanding in this matter. Should you require any further information, please do not hesitate to contact us at .... Best regards, ... ...",
+        "explanation": "Sfrutta un tono aziendale positivo prima di imporre il clic su un URL esterno per 'non vedersi sospesi i benefit'."
+    },
+    {
+        "id": 94,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Invoice Approved",
+        "body": "Dear ..., Thank you for your prompt response regarding the invoice issue. I am pleased to inform you that we have reviewed your request and found that the amount stated in the invoice is indeed accurate and valid. As per our internal accounting procedures, we require you to provide us with some additional information before we can process the payment. Please find attached a form that outlines the details we need from you. Kindly fill it out and return it to us via email. Once we receive the completed form, we will proceed with processing the payment as soon as possible. If you have any questions or concerns, please do not hesitate to contact me directly. Best regards, ... Attachment: Accounts_Form.pdf",
+        "explanation": "Appare come una procedura contabile di routine che 'sblocca' un pagamento. L'allegato è quasi sicuramente un PDF con script malevoli o form fittizi per sottrarre IBAN."
+    },
+    {
+        "id": 95,
+        "difficulty_level": "LEGIT (Safe)",
+        "type": "LEGIT",
+        "subject": "Mortgage Application Status",
+        "body": "hi again , i sent you an email last week and wanted to confirm everything now . please read the info below and let me know if you have any questions . we are accepting your mortgage application . your tracking number is # wl 439781 we are ready to give you a $ 200 , 000 loan for $ 363 / month payment . approval process will take 1 minute , so visit our website and fill out this quick form . thank you best regards , james bridges",
+        "explanation": "A causa del testo sgrammaticato e di link ambigui, sembra pericolosa, ma in molti dataset aziendali (es. Enron) comunicazioni di enti finanziari terzi apparivano proprio in questo modo informale e non costituiscono phishing diretto."
+    },
+    {
+        "id": 96,
+        "difficulty_level": "LEGIT (Safe)",
+        "type": "LEGIT",
+        "subject": "Meeting Time Change - 2:30 pm",
+        "body": "hi vince , we have to change the time of our meeting . we now meet at 2 : 30 pm instead of 12 : 00 noon . hope you can make it ! i look forward to meeting with you soon . thank you . anita crenshaw Corporate HQ americas - office of the chair assistant to louise kitchen 713 . 853 . 4220 ( o ) 713 . 646 . 8562 ( c )",
+        "explanation": "Classico messaggio rapido interno tra assistenti di direzione per riprogrammare riunioni in giornata."
+    },
+    {
+        "id": 97,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Invoice Payment Reminder - Your Attention Required",
+        "body": "Dear Partner, following up on our phone call yesterday, please find the finalized invoice details attached for your review. We will proceed with the billing tomorrow. Thank you.",
+        "explanation": "Sfrutta un falso contesto precedente ('la nostra telefonata di ieri') per indurre il destinatario ad aprire l'allegato pensando di aver dimenticato un accordo verbale."
+    },
+    {
+        "id": 98,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Update your account info to avoid suspension",
+        "body": "dear customer, we have noticed that your account is at risk of being suspended due to recent security issues in our database, please kindly update your information by clicking on the link below, to keep you safe and continue using our services. if no action is taken within 48hours, your account will be locked out for security reasons. click here to verify your account thank you for your understanding as we work together to maintain a secure environment for everyone. best regards, account protection team",
+        "explanation": "Testo privo di punteggiatura adeguata, formattazione povera e minaccia generica di sospensione a opera di un fantomatico 'protection team'."
+    },
+    {
+        "id": 99,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "Benefits Update: Review and Confirm New Packages by March 1",
+        "body": "dear employee, we are pleased to inform you that your benefits package has been updated with new and improved benefits effective march 15th. please take the time to review your new benefits summary attached to this email for more details on what's new and how it will benefit you. in order to confirm receipt and acceptance of these new updates, kindly click the link below and fill out the form: http://suspicious-link.com/login failure to do so may result in loss of some benefits and services. thank you for your cooperation. best regards, human resources department.",
+        "explanation": "Chiede all'utente di compilare un finto modulo online per accettare dei benefit, minacciandone la perdita in caso contrario."
+    },
+    {
+        "id": 100,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Invoice Confirmation: New Terms & Discounts",
+        "body": "Dear ..., Thank you for your recent inquiry regarding the invoice we sent to you. We appreciate your business and are committed to providing excellent service. As a follow-up to our previous communication, we would like to confirm that the total amount due is $ ..., which includes a discount of ... as agreed upon in our earlier correspondence. Please find attached the updated invoice with the new terms. Kindly review it carefully and let us know if there are any discrepancies or queries. If you have any questions or concerns, please do not hesitate to contact us at .... We look forward to continuing our partnership with you. Best regards, ... ...",
+        "explanation": "L'invenzione di 'sconti precedentemente discussi' distrae l'operatore amministrativo e lo incentiva ad aprire l'allegato per assicurarsi che i conti tornino."
+    },
+    {
+        "id": 101,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Email verification required: verify your email address now",
+        "body": "dear employee@target-company.com we have restricted your e-mail account because you didn't verify it after several requests. click here to verify your email address this is an automated message from suspicious-domain.net server security department",
+        "explanation": "Estremamente povera nella forma e usa un dominio mittente inaffidabile. È un tentativo automatizzato e generico."
+    },
+    {
+        "id": 102,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "Request for Feedback on New Product Launch",
+        "body": "Dear team member, please log in to the secure product portal using the link below to evaluate the marketing draft before 5 PM today.",
+        "explanation": "Brevità e imposizione di un orario ('5 PM') mirano a bloccare il pensiero razionale a favore dell'urgenza aziendale."
+    },
+    {
+        "id": 103,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Invoice for Work Completed - Payment Due",
+        "body": "Dear ..., Thank you for choosing our products and services. We appreciate your business and are committed to providing you with the best possible experience. As we previously communicated, an invoice has been generated for the work completed on .... The total amount due is $... plus applicable taxes. Please find attached the latest version of the invoice for your review. We kindly request that you make payment by .... If you have any questions or concerns regarding this invoice, please do not hesitate to contact us at .... To make a payment, please follow the instructions provided in the invoice. Alternatively, you can log in to your account on our website and make the payment online. Your prompt attention to this matter is greatly appreciated. Best regards, ... Attachment: Invoice.pdf",
+        "explanation": "Non destituisce sospetti per via dell'eccellente forma. Spinge ad aprire il PDF per leggere le coordinate bancarie fasulle, colpendo con precisione i reparti B2B."
+    },
+    {
+        "id": 104,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Urgent: Account Verification Required",
+        "body": "Dear Customer, Your account is due for verification in order to maintain your access to our services. In light of recent security measures, we require you to confirm your login details immediately by clicking on the link below and providing us with your password information. If this action is not taken within the next ... hours, your account will be suspended and all data associated with it will be permanently deleted. Please do not reply to this message as it is an automated system. Click here to verify your account now: ... Thank you for your cooperation in ensuring the safety and security of our network. Best regards, ... ...",
+        "explanation": "Tenta di isolare l'utente ('non rispondere al messaggio') chiedendo la password in modo sfacciato sotto estrema minaccia."
+    },
+    {
+        "id": 105,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "Employee Benefits Update - Review and Acceptance Required",
+        "body": "Dear valued employee, We are pleased to inform you that as part of our ongoing efforts to improve the overall employee experience at XYZ Corporation, we have recently made some significant changes to our employee benefits program. As a result, we would like to request your immediate attention to review and accept these new terms and conditions by replying to this email with your acceptance. Please find attached a comprehensive document outlining all the updates and changes, which we kindly ask you to read carefully before responding. In order to ensure that all employees are fully informed and up-to-date on these important matters, we require all staff members to confirm their understanding and agreement with these new policies. Failure to do so may result in the suspension or termination of certain benefits. If you have any questions or concerns about these new policies, please do not hesitate to contact us directly at ... for further clarification. Thank you for your continued cooperation. Best regards, HR Department Attachment: Benefits_Policy_Update.pdf",
+        "explanation": "Sfrutta documenti falsamente istituzionali (il PDF HR). La minaccia è realistica all'interno della cornice burocratica di un ufficio."
+    },
+    {
+        "id": 106,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Invoice Payment Reminder & Update",
+        "body": "Dear , We appreciate your recent inquiry regarding the invoice you received from our company for the products/services provided. In response, we would like to inform you that the invoice has been processed and is now due for payment. Please find attached the updated invoice with the corrected amounts. As per our terms and conditions, late payments may result in additional fees and interest charges. Therefore, we kindly request prompt payment of the outstanding balance within the next . If you have any questions or concerns regarding this invoice, please do not hesitate to contact us at your convenience. Thank you for your continued business with us, and we look forward to continuing our partnership. Best regards, ... ... ... ...",
+        "explanation": "Usa la 'paura di sanzioni o penali di ritardo' per pressare indirettamente i dipendenti di ragioneria ad aprire e processare la finta fattura allegata."
+    },
+    {
+        "id": 107,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Urgent: Verify Your Email Account to Avoid Suspension",
+        "body": "dear employee@target-company.com , your e-mail account will be suspended within 48 hours unless you verify it's ownership. to avoid suspension, follow link below. verify employee@target-company.com sincerely, mail administration team.",
+        "explanation": "Template sciatto e diretto che prova a usare l'indirizzo email del destinatario per simulare autorevolezza informatica, fallendo per i palesi difetti stilistici."
+    },
+    {
+        "id": 108,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "Employee Benefits Program Update",
+        "body": "hi, we are pleased to inform you that your company has expanded its employee benefits program effective from august 15, 2024. this is an opportunity for all employees to enjoy the new range of employee benefits and perks. kindly login to your account using the link below to confirm your details and enroll in the newly introduced benefits package. click here to access your account thank you, human resources department",
+        "explanation": "Omette del tutto l'uso del maiuscolo ma mantiene un tono aziendale convincente, puntando sull'attrattiva dei 'perks' per rubare dati dal falso form web."
+    },
+    {
+        "id": 109,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Payment Confirmation and Additional Information Request",
+        "body": "Dear ..., Thank you for your recent inquiry regarding the invoice we sent to you last week. We are pleased to inform you that we have received your payment and it has been successfully processed. As a valued customer, we appreciate your business and would like to take this opportunity to thank you once again for choosing our products/services. However, due to a recent system update, we need to request some additional information from your end to complete the payment process. Please provide us with your credit card details, including the CVV number located on the back of your card, by replying to this email. This is necessary for verification purposes and will ensure a smooth and secure transaction. We kindly ask you to respond within the next 48 hours to avoid any potential delays or issues with your order. If you have any questions or concerns, please do not hesitate to contact us at .... Best regards, ... ...",
+        "explanation": "Particolarmente pericolosa in quanto l'ingegneria sociale parte prima con la rassicurazione (pagamento andato a buon fine) e poi sfrutta una 'piccola noia tecnica' (update dei sistemi) per estorcere il CVV della carta di credito."
+    }
+]
