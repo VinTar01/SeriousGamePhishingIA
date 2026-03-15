@@ -24,8 +24,8 @@ HF_TOKEN = "hf...."
 MODEL_NAME = "mistralai/Mistral-7B-Instruct-v0.3"
 
 # Percorsi Windows
-JSONL_PATH = "C:/Users/daisl/Desktop/SeriousGamePhishing2/dataset/processed/dataset_instruction.jsonl"
-OUTPUT_DIR = "C:/Users/daisl/Desktop/SeriousGamePhishing2/models/mistral_phishing_v3_final"
+JSONL_PATH = "D:/SeriousGamePhishing2/dataset/processed/dataset_instruction.jsonl"
+OUTPUT_DIR = "D:/SeriousGamePhishing2/models/mistral_phishing_v3_final"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 

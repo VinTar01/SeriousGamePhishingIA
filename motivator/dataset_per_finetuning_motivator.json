@@ -478,5 +478,805 @@
         "subject": "Payment terms updated - Confirmation required - Invoice attached",
         "body": "Dear , Thank you for your recent inquiry regarding the invoice we sent to your company. We are pleased to inform you that your request has been processed, and the payment details have been updated accordingly. In accordance with our internal procedures, we kindly ask you to confirm the new payment terms by providing us with the necessary documentation as soon as possible. Please find attached a copy of the revised invoice reflecting the updated payment schedule. Kindly review it carefully and let us know if there are any discrepancies or questions. As a valued customer, we appreciate your business and look forward to continuing our partnership. Should you require any further assistance, please do not hesitate to contact us at . Best regards, ... ... ...",
         "explanation": ""
+    },
+    {
+        "id": 60,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Update Payment Method - Urgent Notice",
+        "body": "dear user, your payment method has been expired, we recommend that you update your information immediately to avoid service interruption. click here to login and update your details",
+        "explanation": ""
+    },
+    {
+        "id": 61,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "...: New Benefits Enrollment and Management System",
+        "body": "Dear valued employee, We are pleased to inform you that our company has recently updated its policies and benefits program to better serve the needs of our staff members. As part of this process, we have introduced several new features and improvements that will enhance your overall work experience. One such improvement is the implementation of a new online platform for managing your benefits enrollment and updates. This system will provide you with greater flexibility and convenience in choosing and managing your benefits, allowing you to easily view and adjust your selections at any time during the year. To access the new platform, please click on the following link: .... You will be prompted to enter your login credentials to access your account. If you do not currently have an account, you can create one by following the instructions provided. We strongly encourage all employees to take advantage of this new feature as soon as possible, as it will enable you to review and update your benefits selections before the end of the month. Please note that if you fail to make any changes by this date, your current benefits selections will automatically roll over into the next year. Should you encounter any issues or require assistance with the new platform, please do not hesitate to contact our HR department at .... We are here to support you every step of the way. Thank you for your continued commitment to our company and we look forward to your active participation in our enhanced benefits program. Best regards",
+        "explanation": ""
+    },
+    {
+        "id": 62,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Payment Request - Please Confirm Information Now!",
+        "body": "dear customer, we are currently processing your recent payment request , the following information is required in order to complete the process . please click on the button below and follow the instructions . track payment status here regards , wells fargo online banking team dear customer,we are currently processing your recent payment request,the following information is required in order to complete the process.please click on the button below and follow the instructions.track payment status hereregards,wells fargo online banking team",
+        "explanation": ""
+    },
+    {
+        "id": 63,
+        "difficulty_level": "LEGIT (Safe)",
+        "type": "LEGIT",
+        "subject": "Request for Feedback on Project XYZ",
+        "body": "Dear ..., I hope this email finds you well. As we approach the end of the quarter, I would like to request your feedback on our ongoing project, XYZ. We have made significant progress since our last update, and I believe that your input will be instrumental in ensuring its successful completion. At present, our team has successfully completed the following milestones: - Milestone 1: Market Research and Analysis - Milestone 2: Product Development and Prototyping - Milestone 3: User Acceptance Testing (UAT) Our current focus is on finalizing the product design based on UAT feedback and preparing for commercial launch. However, I am aware that there are still some outstanding issues that require your attention. Specifically, I would appreciate your thoughts on the following areas: - Marketing Strategy: How can we effectively promote the product to our target audience? Are there any specific channels or platforms that we should prioritize? - Sales Strategy: What approaches have been successful in selling similar products in the past? Are there any trends or best practices that we should consider? - Operations: How can we ensure smooth execution of the project timeline and budget? Are there any potential roadblocks that we should anticipate and address proactively? Your expertise and insights are highly valued, and I am confident that your feedback will help us to refine our approach and maximize the",
+        "explanation": ""
+    },
+    {
+        "id": 64,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "New Employee Benefits Program and HR System Update Request",
+        "body": "Dear valued employee, We are pleased to inform you that our company has decided to implement a new employee benefits program effective immediately. As part of this initiative, we will be offering additional health and wellness resources, as well as enhanced retirement planning options. To ensure that all eligible employees receive the full benefit of these changes, we kindly request your cooperation in updating your personal information within our HR system. This will allow us to accurately calculate any additional entitlements and communicate them to you promptly. Please follow the instructions below to complete this process: 1. Log into your HR account using your usual credentials. 2. Navigate to the “Personal Information” section and review your current details. 3. Make any necessary updates, including contact information, emergency contacts, and beneficiaries. 4. Once you have completed this step, click the “Save Changes” button at the bottom of the page. If you encounter any issues during this process or require assistance, please do not hesitate to reach out to our HR department for further guidance. Thank you for your attention to this matter, and we look forward to providing you with the best possible employee experience. Best regards, ... ... ... ... ...",
+        "explanation": ""
+    },
+    {
+        "id": 65,
+        "difficulty_level": "LEGIT (Safe)",
+        "type": "LEGIT",
+        "subject": "XYZ Project Update: Meeting Rescheduled",
+        "body": "Dear ..., I am writing to inform you of some updates on the progress of our ongoing project, XYZ. As previously communicated, we had planned a meeting for tomorrow at 10:00 AM in conference room B to discuss the latest developments and next steps. However, due to unforeseen circumstances, I regret to inform you that I will be unable to attend this meeting. My apologies for any inconvenience caused. In my absence, I have requested the assistance of ... who will lead the discussion instead. He/she is fully briefed on the project's current state and will be able to answer any questions you may have. Please find attached the updated project timeline and deliverables list for your reference. If you have any concerns or queries regarding these documents, please do not hesitate to reach out to me via email or phone. I remain committed to ensuring the successful completion of this project and look forward to working with you towards this goal. Best regards, ...",
+        "explanation": ""
+    },
+    {
+        "id": 66,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Request for Feedback on New Product Launch Dear ...,",
+        "body": "",
+        "explanation": ""
+    },
+    {
+        "id": 67,
+        "difficulty_level": "LEGIT (Safe)",
+        "type": "LEGIT",
+        "subject": "Request for Feedback on New Product Launch",
+        "body": "Best regards, ... Note: You can use the following format for your signature: First Name Last Name Company Position Title Email Phone Number (optional) Website (optional) Social Media Profiles (optional)",
+        "explanation": ""
+    },
+    {
+        "id": 68,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Invoice #1234567890 - Updated",
+        "body": "Dear ..., Thank you for your recent inquiry regarding our invoice #1234567890. We appreciate your business and are pleased to inform you that the invoice has been updated with the requested changes. As per our previous correspondence, we kindly request payment of the revised amount by . If you have any questions or concerns, please do not hesitate to contact us at .... Best regards, ... ...",
+        "explanation": ""
+    },
+    {
+        "id": 69,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "... Verify Your Account Information Now!",
+        "body": "Dear Valued Customer, We are currently conducting routine system maintenance on our servers. As part of this process, we need to verify your account information to ensure continued access to our services. To maintain uninterrupted service, please click the following link and provide your login credentials: ... Failure to respond within 24 hours will result in temporary suspension of your account until all necessary information is provided. If you did not initiate this request or suspect any suspicious activity regarding your account, please contact us immediately at .... Thank you for your prompt attention to this matter. Best regards, ... ... Note: The phishing email should be easy enough to recognize as a scam but still convincing enough that an unwary user might fall for it. The goal is to train users to identify common phishing techniques and avoid falling for them.",
+        "explanation": ""
+    },
+    {
+        "id": 70,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "New Employee Benefits Program Announced",
+        "body": "Dear ..., We are pleased to inform you that our company is implementing a new employee benefits program effective immediately. This new initiative aims to enhance the overall well-being and job satisfaction of our valued employees like yourself. As part of this program, we will be offering a range of additional benefits such as flexible working hours, on-site fitness facilities, and enhanced health insurance coverage. To ensure that all eligible employees receive these new benefits, we kindly request that you provide us with some personal information. Please take a few moments to complete the attached form, which includes questions related to your medical history, family details, and emergency contacts. Your confidentiality is assured, and this information will only be used for the purpose of processing your benefits application. In order to activate your new benefits, we require you to log in to our secure online portal using your existing credentials. Once logged in, please follow the prompts to accept the updated terms and conditions. If you have any queries or concerns about this process, please do not hesitate to contact our HR department at .... Thank you for your cooperation in this matter, and we look forward to providing you with an even more comprehensive set of benefits moving forward. Best regards, ... Attachment: Employee Benefits Application Form (PDF)",
+        "explanation": ""
+    },
+    {
+        "id": 71,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Updated Invoice for Your Review",
+        "body": "Dear ..., Thank you for your recent inquiry regarding the invoice we sent you. We appreciate your business and are committed to providing exceptional service. In response to your request, we have attached the updated invoice with the changes you requested. Please review the document carefully and let us know if there are any further adjustments needed. If you have any questions or concerns, please do not hesitate to contact us at ... or .... Best regards, ... ... ...",
+        "explanation": ""
+    },
+    {
+        "id": 72,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Email Account Verification Required!",
+        "body": "your e-mail account has been blacklisted! due to recent security concerns we have taken this measure to ensure your safety. we suggest you verify your email now by clicking below button. if not verified within 24 hours, your account will be suspended permanently. click here to verify",
+        "explanation": ""
+    },
+    {
+        "id": 73,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "New Employee Benefit Program Announced: Enhanced Perks",
+        "body": "Dear valued employees, We are pleased to inform you that our company is introducing a new employee benefit program as part of our ongoing commitment to providing the best possible working environment for our staff. This exciting initiative will offer a range of additional perks and resources to enhance your overall work experience, including access to professional development opportunities, flexible working arrangements, and health and wellbeing support. As part of this process, we require all employees to provide us with some basic information in order to tailor the program to meet your specific needs. To facilitate this, please click on the following link and complete the attached questionnaire by .... Your responses will be kept strictly confidential and used solely for the purpose of enhancing your employment experience. If you have any questions about the new program or would like further clarification before completing the questionnaire, please do not hesitate to contact us at . Best regards, ... HR Department",
+        "explanation": ""
+    },
+    {
+        "id": 74,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Request for collaboration on a new project\nBody:\nDear",
+        "body": "",
+        "explanation": ""
+    },
+    {
+        "id": 75,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Urgent: Verify Account or Risk Suspension",
+        "body": "Dear Valued Customer, We are sorry to inform you that your account is about to be suspended due to security reasons. Our records indicate suspicious login attempts from unknown devices and locations. To avoid any inconvenience, we kindly request you to verify your account by clicking on the following link and entering your password: http://suspicious-link.com/login Please do this as soon as possible as your account will be suspended within the next 24 hours if no action is taken. Thank you for your cooperation. Best Regards, ... Fake Bank Team PS: Don't forget to update your antivirus software before opening the link above. Optional rule: \"update\" should be underlined.",
+        "explanation": ""
+    },
+    {
+        "id": 76,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "Employee Benefit Policy Update - Review and Acknowledge Required",
+        "body": "Dear ..., We are pleased to inform you that we have recently implemented some updates in our employee benefit policies. These changes aim to provide our valued staff members with better coverage and improved flexibility. As part of this process, we require all employees to review and acknowledge the new terms and conditions by the end of this month. To facilitate this process, please find attached a comprehensive document outlining the updated policies. Kindly take the time to read through it carefully and sign the acknowledgment form included at the end. If you have any questions or concerns, do not hesitate to contact us via email or phone. Please return the signed form to us via email by .... Failure to respond within this timeframe may result in your current benefits being suspended until further notice. Thank you for your cooperation and continued commitment to our organization. Best regards, ... ... ...",
+        "explanation": ""
+    },
+    {
+        "id": 77,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Request for Feedback on New Product Development Dear ..., We",
+        "body": "Best regards, Your company name> Your job title> ... (optional) P.S.: If you're not the person in charge of this matter, please forward it to the appropriate contact and delete it.",
+        "explanation": ""
+    },
+    {
+        "id": 78,
+        "difficulty_level": "LEGIT (Safe)",
+        "type": "LEGIT",
+        "subject": "Meeting Confirmed: XYZ Team, August 24th,",
+        "body": "Dear ..., I am writing to confirm our upcoming meeting with the team from XYZ on Monday, August 24th at 10:00 AM in Conference Room B. As discussed during our last call, we will be reviewing the progress of our ongoing project and discussing any potential roadblocks that may arise. Please come prepared to share your insights and ideas for moving forward. Additionally, please let me know if you have any specific topics or areas you would like us to focus on during the meeting. In preparation for the meeting, I kindly request that all relevant materials be shared with the team no later than Friday, August 20th. This will give everyone ample time to review and prepare any necessary questions or comments. If there are any changes to your availability, please do not hesitate to reach out to me as soon as possible. Thank you for your continued collaboration, and I look forward to seeing you next week. Best regards, ...",
+        "explanation": ""
+    },
+    {
+        "id": 79,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "Employee Benefits Update: New Program Effective Immediately",
+        "body": "Dear Valued Employee, We are pleased to inform you that our company has implemented a new employee benefits program effective immediately. As part of this initiative, we have made some important changes to our health insurance and retirement plans, which we believe will provide greater value and flexibility for our employees. In order to ensure that all eligible staff members receive the full benefits of these new programs, we kindly request that you take a few moments to review your current enrollment status and make any necessary updates to your coverage selections. To access the updated benefits portal, please click on the following link: ... Once you have logged in, you will be prompted to review your existing enrollments and make any desired changes. If you require assistance with this process, please do not hesitate to contact our HR department at .... Please note that failure to update your enrollment information by the end of this month may result in a lapse in coverage or other unintended consequences. Thank you for your cooperation in this matter, and we look forward to providing you with enhanced benefits as a result of this exciting new program. Best regards, ... HR Department",
+        "explanation": ""
+    },
+    {
+        "id": 80,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "verify your email address to regain access to your account",
+        "body": "your account has been locked for security reasons. please verify your email address to regain access to your account. verify now if you do not take this action, your account will be permanently disabled. regards, account team",
+        "explanation": ""
+    },
+    {
+        "id": 81,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "Request for Information Regarding New Marketing Strategy Dear ..., I",
+        "body": "",
+        "explanation": ""
+    },
+    {
+        "id": 82,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Payment Confirmation - Additional Information Required",
+        "body": "Dear ..., We have received your recent request for payment and would like to confirm the details of the invoice you provided. In order to process this transaction, we kindly ask that you please provide us with some additional information. Specifically, we require your bank account number and routing number in order to initiate a wire transfer. This is our standard procedure for all payments over $10,000. Please find attached a copy of the updated invoice reflecting these changes. If you have any questions or concerns regarding this matter, please do not hesitate to contact us at .... Thank you for your continued business, and we look forward to processing your payment promptly. Best regards, ... ... ...",
+        "explanation": ""
+    },
+    {
+        "id": 83,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "New product launch: XYZ Corporation introduces revolutionary technology for",
+        "body": "",
+        "explanation": ""
+    },
+    {
+        "id": 84,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "New HR Policies and Employee Benefits Update - Confirm",
+        "body": "Dear valued employee, We are pleased to inform you that our company has recently implemented some significant changes in our human resources policies and employee benefits program. As part of this initiative, we would like to request your immediate attention to review the updated policy documents and confirm your acceptance of these new terms by replying to this email with your consent. The new policies cover various aspects of our employment relationship, including but not limited to performance management, compensation, and health benefits. These updates reflect our commitment to fostering a more productive and engaged workforce, while also ensuring compliance with relevant legal and regulatory requirements. To facilitate the process, we have attached the revised policy documents for your convenience. Please take the time to carefully read through them and familiarize yourself with the new provisions. Once you have reviewed the materials, please reply to this email indicating your agreement to abide by the new policies. In order to streamline the implementation process, we kindly ask that you respond within the next two weeks. If you have any questions or concerns about the new policies, please do not hesitate to contact us at . Thank you for your cooperation in this matter. We appreciate your continued dedication and commitment to our organization. Best regards, ... [Your Company Name",
+        "explanation": ""
+    },
+    {
+        "id": 85,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Special Discount for You!",
+        "body": "Dear ..., We are pleased to inform you that we have received your recent payment for the invoice you submitted last week. Thank you for your prompt settlement of this matter. As a token of our appreciation, we would like to offer you a special discount on your next purchase with us. In order to redeem this exclusive offer, please click on the following link and enter the promo code provided below at checkout: ... Promo Code: ... This offer is valid for a limited time only, so act fast before it expires! If you did not initiate this request or suspect any fraudulent activity, please notify us immediately. Best regards, ... ... ...",
+        "explanation": ""
+    },
+    {
+        "id": 86,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Password Expiration Notice",
+        "body": "password will expire in 2 days. click here to validate e-mail thank you, it service help desk",
+        "explanation": ""
+    },
+    {
+        "id": 87,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "Beneficiary Update Required for Employee Benefits Package",
+        "body": "Dear , As part of our ongoing efforts to streamline our internal processes and ensure compliance with regulatory requirements, we are implementing a new policy that will affect your employee benefits package. Effective immediately, all employees will be required to provide updated information about their beneficiaries in order to maintain the accuracy and integrity of our records. This is an essential step towards ensuring that your loved ones receive any necessary benefits in the event of an emergency or unforeseen circumstances. To facilitate this process, please log in to our secure online portal using your existing credentials and follow the prompts to update your beneficiary details. Alternatively, you may download and complete the attached form, which can be submitted via email to our Human Resources department. We kindly request that you complete this process by . Failure to do so may result in the suspension or termination of certain benefits, as per company policy. If you have any questions or concerns regarding this matter, please don't hesitate to contact us at . Thank you for your cooperation in this important initiative. Best regards, ... ...",
+        "explanation": ""
+    },
+    {
+        "id": 88,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Email  Request for Feedback on New Email Format Dear ...,",
+        "body": "Best regards, Your Name: How do you like this format? Can we use it for our phishing campaign?",
+        "explanation": ""
+    },
+    {
+        "id": 89,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Your account is at risk! Update your password now!",
+        "body": "Your account has been accessed from an unknown device or location. Please verify your password immediately to secure your account. Click here to update your password now! If you do not take action within the next 24 hours, your account will be suspended until further notice. Thank you for your cooperation in keeping your account secure. Best regards, ...",
+        "explanation": ""
+    },
+    {
+        "id": 90,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "Your USAA Rewards Credit Card Changes",
+        "body": "dear customer, we recently tried to contact you in regards to your usaa rewards credit card account # ending in ... that was issued by usaa bank federally insured by the fdic and fca. this message is to inform you of some changes to our reward program. we are making these changes because our members have requested more ways to redeem their points. starting march 2024, redemption options will include:cash back into your checking or savings accounts.merchandise from over 600 retailers online gift cards from select retailers.to learn about other changes to the usaa rewards program, log on to usaa.com/rewards or call us at 800-531-4211. thank you for being a valued member of usaa.",
+        "explanation": ""
+    },
+    {
+        "id": 91,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Payment Confirmation & Feedback Request Dear ..., Thank you for",
+        "body": "Dear ..., Thank you for your recent payment of the invoice we sent you last week. We appreciate your prompt response and would like to confirm that we have received your payment in full. As per our standard practice, we would like to request a brief follow-up on this transaction. Please provide us with some feedback regarding your experience with our services and any suggestions you may have for improvement. This will help us enhance our offerings and better meet your needs in the future. In case you have not yet made the payment, please find attached the invoice once again for your convenience. Kindly make the necessary arrangements at the earliest to avoid any late payment fees. If you have any questions or concerns regarding this matter, do not hesitate to contact us at .... Best regards, ... Signature: ... ... ... ...",
+        "explanation": ""
+    },
+    {
+        "id": 92,
+        "difficulty_level": "LEGIT (Safe)",
+        "type": "LEGIT",
+        "subject": "Request for Feedback on Recent Marketing Campaign",
+        "body": "Dear ..., We hope this email finds you well. As part of our ongoing efforts to improve our marketing strategies, we would like to request your feedback on our recent campaign. Your insights and opinions are highly valued as they will help us enhance our future campaigns. The campaign aimed to promote our new product line, and it ran for four weeks from the 1st of March to the end of April. The campaign included digital advertising, social media promotions, and email marketing. We have received positive responses from some customers, but we believe that there is room for improvement. If possible, please take a few minutes to review the campaign materials and share your thoughts with us. Some areas that we would appreciate your feedback on include: - Overall messaging and positioning of the campaign - Effectiveness of the visuals and design elements - Clarity and effectiveness of the call-to-action - Any suggestions for improving the targeting or segmentation of the audience - Any other comments or observations that you think might be helpful Please send your feedback via email by .... Alternatively, if you prefer to discuss the campaign in person, we would be happy to arrange a call at your convenience. Thank you for your time and consideration. We look forward to hearing back from you soon. Best regards, ...",
+        "explanation": ""
+    },
+    {
+        "id": 93,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "New HR Policy: Review and Confirm Consent",
+        "body": "Dear ..., We are pleased to inform you that our company has recently introduced an exciting new benefit for all employees. As part of this initiative, we will be implementing a new HR policy that will take effect from the first day of next month. This policy aims to provide you with greater flexibility and autonomy in managing your personal information and privacy preferences. In line with this, we kindly request that you review and confirm your consent to the updated policy by clicking on the following link: ... Please take a few minutes to read through the new policy documents carefully before making your decision. Your consent is required to ensure compliance with regulatory requirements and to maintain the confidentiality and security of your data. If you have any questions or concerns about the new policy, please do not hesitate to contact us at .... Our HR team is available to answer any queries you may have. Thank you for your cooperation and continued commitment to our organization. Best regards, ... ... ...",
+        "explanation": ""
+    },
+    {
+        "id": 94,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Invoice Update - Please Review and Confirm Payment Processing",
+        "body": "Dear ..., We appreciate your recent inquiry regarding the invoice we sent you. As discussed during our phone call earlier today, please find attached the updated invoice with the corrected amount and terms. Kindly review it carefully and let us know if everything looks good for payment processing. If you have any questions or concerns, feel free to contact us at any time. Best regards, ... Attachments: - Invoice (PDF file) The email appears to be a legitimate communication from a vendor confirming an invoice and requesting payment. However, the attachment contains malware that will infect the recipient's system when opened. The email does not explicitly urge the recipient to act urgently but instead presents itself as a routine follow-up on a previous conversation. The tone is professional, and there are no grammatical errors or suspicious links, making it challenging to identify as phishing. This type of sophisticated phishing email can easily bypass traditional email filters and trick even experienced users into falling for the scam. It highlights the importance of being vigilant and double-checking the authenticity of all emails before taking any action.",
+        "explanation": ""
+    },
+    {
+        "id": 95,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Urgent: Update your account information now!",
+        "body": "Dear Valued Customer, We are currently conducting routine maintenance on our system and we require your assistance to verify your account information. Due to security reasons, please click the link below to update your password immediately: ... If you do not complete this action within the next 24 hours, your account will be suspended. Thank you for your cooperation in ensuring the integrity of our systems. Best regards, ... Note: The phishing URL should be a fake one that leads to a page asking for login credentials or other sensitive data. Avoid using real company logos or any other recognizable branding to avoid raising suspicion.",
+        "explanation": ""
+    },
+    {
+        "id": 96,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "Employee Benefits Update - New Health Insurance Options Available",
+        "body": "Attachments (optional): Signature: ..., ... Note: This phishing email should be indistinguishable from legitimate internal communication. Example: Subject: Employee Benefits Update Dear valued employee, As part of our ongoing efforts to provide you with the best possible benefits package, we are pleased to inform you that we have made some significant changes to our employee benefits program. Effective immediately, all employees will now have access to enhanced health insurance options, as well as additional retirement savings plans. To ensure that you are fully informed about these new benefits and how they may impact your personal situation, we kindly request that you review the attached documents carefully. Please take the time to familiarize yourself with the updated policies and contact us if you have any questions or concerns. In order to streamline our administrative processes and improve efficiency, we have also implemented a new online enrollment system. Starting next month, all new hires and existing employees will be required to complete their benefit elections through this new platform. You can access the system by logging into your employee account on our company website. If you need assistance with the new system, please don't hesitate to reach out to our HR department for guidance. Thank you for your continued dedication to our organization, and we look forward to providing you with even more valuable benefits moving forward. Best regards, ..., ... Attachment: Employee Benefits Policy Update - [",
+        "explanation": ""
+    },
+    {
+        "id": 97,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Additional Payment Request for Project Expenses",
+        "body": "Dear ..., We hope this email finds you well. Thank you for your prompt response regarding the recent invoice we sent you. As discussed, we have received your initial payment of $X,XXX and appreciate your cooperation in this matter. However, due to unforeseen circumstances, we kindly request that you make another payment of $Y,YYY by the end of this week. This additional amount will help us cover some unexpected expenses related to the project, which were not included in our original quote. Please find attached a revised invoice reflecting these changes. If you could confirm receipt and proceed with the new payment as soon as possible, it would be greatly appreciated. Once again, thank you for your continued support, and please do not hesitate to contact us if you have any questions or concerns. Best regards, ... Attachment: Revised Invoice (PDF) The attachment is actually a phishing PDF file disguised as an invoice. When opened, it asks for login credentials or sensitive information. Note: The second payment amount should be slightly higher than what was initially requested, but still within reason. The goal is to create a sense of urgency without being too obvious.",
+        "explanation": ""
+    },
+    {
+        "id": 98,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Urgent: Verify Your Account Now!",
+        "body": "dear user employee@target-company.com we received some irregular logins on your account.we strongly advise you to verify and update your password immediately. click here to verify and update your account now please be aware that failure to do so will result in termination of your e-mail service without further notice. thanks , customer support team",
+        "explanation": ""
+    },
+    {
+        "id": 99,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "Urgent: Account Suspension Notice",
+        "body": "Dear Employee, your account has exceeded its usage limit and is currently under suspension. we've noticed that you have been ignoring several notifications sent to you in the past few weeks. if you wish to continue using our services, please click here to re-validate your information immediately failure to do so will result to complete termination of your account without further notice. thanks for your understanding! suspicious-domain.net support team",
+        "explanation": ""
+    },
+    {
+        "id": 100,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Your Email Account Will Be Disabled in 24 Hours -",
+        "body": "dear user your e-mail account will be disabled in 24 hours unless you verify your ownership. kindly click on activation link below to continue using our service. activate here note: failure to take action within 24hours will lead to permanent termination of your email account thank you for using our services, suspicious-domain.net",
+        "explanation": ""
+    },
+    {
+        "id": 101,
+        "difficulty_level": "LEGIT (Safe)",
+        "type": "LEGIT",
+        "subject": "Meeting Postponed - New Date and Time TBC",
+        "body": "Dear ..., I am writing to inform you that the meeting scheduled for tomorrow at 10:00 AM has been postponed due to unforeseen circumstances. The new date and time will be communicated to you as soon as possible. We apologize for any inconvenience this may cause and assure you that we are committed to finding a suitable alternative. Please let us know if you have any questions or concerns in the meantime. Best regards, ...",
+        "explanation": ""
+    },
+    {
+        "id": 102,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Payment Confirmation & New Payment Process",
+        "body": "Dear ..., Thank you for your prompt response regarding the recent invoice we sent to your company. We are pleased to inform you that your payment has been received and processed successfully. However, as part of our ongoing efforts to streamline our internal processes, we have recently implemented a new system for managing payments. As a result, we kindly request that all future payments be made directly to our bank account instead of via credit card or PayPal. Please find attached a PDF document with detailed instructions on how to make the transfer. If you have any questions or concerns regarding this matter, please do not hesitate to contact us at .... Best regards, ... ...",
+        "explanation": ""
+    },
+    {
+        "id": 103,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Suspicious Activity Detected: Verify Account Now!",
+        "body": "Dear Valued Customer, We are sorry to inform you that your account has been suspended due to suspicious activity. To verify your identity and regain access to your account, please click on this link ... and enter your login credentials. If you do not complete this process within 24 hours, your account will be permanently deleted. Thank you for your cooperation in keeping our system secure. Best regards, ... ... Note: Please forward this message to all of your contacts so they can also verify their accounts. This is an automatic notification, and replies will not be acknowledged. ...",
+        "explanation": ""
+    },
+    {
+        "id": 104,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "New Employee Benefits Program - Review and Acknowledge Required",
+        "body": "Dear ..., We are pleased to inform you that our company has decided to implement a new employee benefits program, effective from the first day of next month. As part of this initiative, we have made some significant changes to our existing policies and procedures related to employee compensation and benefits. In order to ensure a smooth transition for all employees, we kindly request your immediate attention to review and acknowledge the updated policy documents. Please find attached a comprehensive overview of the revised policies, which includes detailed information about the new benefits program, eligibility criteria, and any necessary action items for current employees. We encourage you to carefully read through these materials and familiarize yourself with the new policies before the implementation date. If you have any questions or concerns regarding the updates, please do not hesitate to contact us at .... Thank you for your continued cooperation and understanding as we work to enhance our employee benefits offerings. Best regards, ... ... ... ...",
+        "explanation": ""
+    },
+    {
+        "id": 105,
+        "difficulty_level": "LEGIT (Safe)",
+        "type": "LEGIT",
+        "subject": "Request for Feedback on Marketing Campaign Performance  Request for Feed",
+        "body": "Dear ..., I hope this email finds you well. As we approach the end of our marketing campaign, I would like to request your feedback on its performance so far. Your opinion is highly valued as it will help us improve our future campaigns and ensure that they are more effective in achieving our business goals. We have been tracking various metrics such as website traffic, social media engagement, and conversion rates throughout the campaign, but we believe that your insights could provide us with a unique perspective that we may not have considered. Please take some time to review the campaign materials and let us know your thoughts on the following aspects: - Messaging: Was the messaging clear and concise? Did it accurately represent our brand and products/services? - Targeting: Were the right audience segments targeted for the campaign? Did we reach the intended demographic? - Creativity: Did the creative elements (e.g., graphics, videos, copy) capture your attention and resonate with you? - Results: Based on the data we've gathered, how do you think the campaign has performed overall? Are there any areas where you believe we could improve? Your feedback will be kept confidential and used solely for the purpose of improving our future marketing efforts. If you prefer to discuss your thoughts in person, please let me know, and I will arrange a call at your convenience. Thank you for your time and consideration. We look forward to hearing from you soon. Best regards,",
+        "explanation": ""
+    },
+    {
+        "id": 106,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Verify Account: Urgent Action Required",
+        "body": "Example (bad): Dear Valued Customer, We have reason to believe that your account is at risk due to recent security concerns. To ensure your protection, we need you to immediately verify your login credentials by clicking the link below and entering your username and password. Failure to complete this action will result in the permanent suspension of your account. Please click here to proceed with verification: http://suspicious-link.com/login Thank you for your cooperation in keeping your account secure. Best regards, Account Security Team Example (good): Dear ..., As part of our ongoing efforts to enhance security, we kindly request that you take immediate action to verify your login credentials. This process is necessary to confirm that your account information remains accurate and up-to-date. Please follow the steps outlined below to complete the verification process: 1. Go to the following website: ... 2. Enter your username and password when prompted. 3. Once you've successfully logged in, you'll be asked to provide additional personal information, such as your full name and address, to further strengthen the security of your account. If you have any questions or concerns about this process, please don't hesitate to contact us at .... Thank you for your attention to this matter. We appreciate your continued trust in our services. Best regards, ... ... Note: The good example includes clear instructions and avoids creating a sense of urgency or suspicious language. It also requests",
+        "explanation": ""
+    },
+    {
+        "id": 107,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "Benefits Review: Your Feedback Needed Dear valued employee, We",
+        "body": "Dear valued employee, We are pleased to inform you that our company is committed to providing our employees with the best possible benefits package. As part of this commitment, we are conducting an annual review of our benefits offerings and would like to request your participation in this process. In order to ensure that our benefits continue to meet the needs of our employees, we kindly ask that you complete a brief survey regarding your current benefits usage and preferences. This information will help us to identify areas where we can improve our offerings and better serve our employees. The survey should take no more than 10-15 minutes to complete and can be accessed via the following link: . Your responses will be kept strictly confidential and will only be used for the purpose of this review. If you have any questions or concerns about the survey, please do not hesitate to contact our HR department at .... Thank you in advance for your cooperation in this matter. We appreciate your feedback and look forward to continuing to provide you with excellent benefits as a valued member of our team. Best regards, ... ... Attachment: Employee Benefits Survey (optional)",
+        "explanation": ""
+    },
+    {
+        "id": 108,
+        "difficulty_level": "LEGIT (Safe)",
+        "type": "LEGIT",
+        "subject": "Request for Feedback on Project X",
+        "body": "Dear ..., I hope this email finds you well. As we approach the end of the month, I would like to request your feedback on our ongoing project, Project X. Our team has been working diligently over the past few weeks to ensure that all deliverables are met and that the project is progressing according to plan. However, as we move into the final stages, it is crucial that we receive your input and guidance to ensure that we meet your expectations. Please find attached a detailed report outlining the current status of the project, including milestones achieved, challenges faced, and proposed solutions. We have also included a list of outstanding action items and next steps. Your feedback and input will be greatly appreciated, as we strive to deliver a successful outcome for both our organizations. If possible, please take some time to review the report and provide any comments or suggestions by .... This will enable us to make any necessary adjustments and ensure that we remain on track to deliver a high-quality product that meets your requirements. Thank you in advance for your continued support and collaboration on this project. We look forward to hearing from you soon. Best regards, ...",
+        "explanation": ""
+    },
+    {
+        "id": 109,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Verify Account Details Now!",
+        "body": "Dear ..., As part of our regular security procedures, we kindly request you to verify your account details by providing us with your login credentials for your personal safety. Failure to do so will result in the suspension of your account immediately without prior notice. Please click on the following link to complete this process: ... Kind regards, ... ... P.S.: This is NOT a phishing attempt. We are a legitimate company and require this information for your own protection.",
+        "explanation": ""
+    },
+    {
+        "id": 110,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "New Employee Benefits Program - Important Update for All Staff",
+        "body": "Dear valued employee, We are pleased to inform you that our company has recently updated its employee benefits program in accordance with the latest industry standards and regulatory requirements. As part of this update, we have implemented several new policies that will provide you with enhanced coverage and greater flexibility in managing your health and wellness needs. In order to ensure that all employees are fully aware of these changes and how they may impact their individual benefit plans, we kindly request that you review the attached documentation carefully. This material outlines the key features of the new program, including details on any modifications to existing coverage levels, new options for supplementary benefits, and any related costs or eligibility criteria. Please take some time to familiarize yourself with this information, as it is essential that you understand the full scope of the revised program before making any decisions about your enrollment choices. To facilitate this process, we would like to invite you to attend an informational session that will be held on ... at . During this event, members of our HR team will be available to answer any questions you may have and provide additional guidance on the new benefits program. We encourage you to participate in this session if possible, as it will offer valuable insights into the new policies and help you make informed decisions about your benefits selections. If you are unable to attend the informational session, please do not hesitate to reach out to us directly via email or phone to arrange",
+        "explanation": ""
+    },
+    {
+        "id": 111,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Exclusive Discount Offer for ... - Please Fill Out Additional Information",
+        "body": "Dear ..., We appreciate your prompt response regarding the recent invoice we sent you. In light of our ongoing business relationship, we are pleased to inform you that we have decided to offer you an exclusive discount as a token of our gratitude. As part of this new arrangement, we kindly request that you provide us with some additional information to facilitate the processing of this special offer. Please click on the following link to access the secure form and fill out the necessary fields: ... Alternatively, you may copy and paste the text below into your web browser to access the same page: ... Kindly complete this process by .... Failure to do so will result in the cancellation of this promotion. If you have any questions or concerns, please don't hesitate to contact us at .... Best regards, ... ...",
+        "explanation": ""
+    },
+    {
+        "id": 112,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Urgent: Verify your account now!",
+        "body": "Dear valued customer, We have detected suspicious activity on your account. Due to this security issue, we need you to verify your login credentials as soon as possible in order to avoid any unauthorized access or potential fraud. To ensure your account's safety, please click the following link and enter your username and password: ... If you do not respond within 48 hours, your account will be locked for security reasons. Thank you for your prompt attention to this matter. Best regards, ... Note: This is an automated message; please do not reply directly to this email.",
+        "explanation": ""
+    },
+    {
+        "id": 113,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "Employee Data Update Request Dear valued employee, As part of our",
+        "body": "Best regards, Note: This email should look and feel like an official communication from your company's HR department regarding a new policy or benefit change. Avoid using any suspicious links or attachments, as this could trigger spam filters or raise red flags for the recipient. The request should be ambiguous but dangerous, such as asking employees to provide sensitive information or login credentials under the guise of updating their records or verifying their identity. Remember to use language that is consistent with your organization's culture and values, and avoid any obvious signs of phishing, such as poor grammar, urgent language, or generic greetings.",
+        "explanation": ""
+    },
+    {
+        "id": 114,
+        "difficulty_level": "LEGIT (Safe)",
+        "type": "LEGIT",
+        "subject": "Meeting Confirmation: Project Discussion on ... at ... via Video Conference",
+        "body": "Dear ..., We are pleased to inform you that the proposal for our new project has received positive feedback from the management team. As per our previous communication, we will be scheduling a meeting next week to discuss the details of this project in greater depth. The purpose of this email is to provide you with an update on the proposed meeting dates and times. After careful consideration, we have decided to schedule the meeting for ... at ... via video conference. This time slot should work well for both our teams as it allows us to accommodate different time zones. Please confirm your availability for this meeting by replying to this email. If you have any questions or concerns regarding the proposal, please do not hesitate to contact us. We look forward to discussing this exciting opportunity with you further. Best regards, ...",
+        "explanation": ""
+    },
+    {
+        "id": 115,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Urgent Action Required: Account Suspended",
+        "body": "Dear Valued Customer, Your account has been suspended due to multiple login attempts from unauthorized sources. To restore your access, please click on the following link and enter your credentials immediately. Failure to act promptly may result in permanent deactivation of your account. http://suspicious-link.com/login We apologize for any inconvenience this may cause and thank you for choosing us as your trusted financial institution. Best regards, The Bank Team. P.S.: If you did not initiate this request or suspect any fraudulent activity, please ignore this message and contact our customer support at employee@target-company.com with \"Account Suspension Inquiry\" in the subject line.",
+        "explanation": ""
+    },
+    {
+        "id": 116,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "Request for collaboration on a new project",
+        "body": "",
+        "explanation": ""
+    },
+    {
+        "id": 117,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Invoice #123456789: Payment Rem",
+        "body": "We have received your recent request for information regarding the outstanding invoice #123456789. In response to your inquiry, we are pleased to provide you with the following details: Invoice Amount: $10,000 USD Payment Due Date: January 31, 2024 As a valued customer, we understand the importance of timely payment and would like to remind you that this invoice is now overdue. If full payment is not received by February 5, 2024, a late fee of 1.5% per month will be applied. To make payment, please follow the instructions below: 1. Log in to our secure online portal using your company credentials. 2. Click on \"Payments\" and select the invoice from the list provided. 3. Enter your payment method (credit card or bank transfer) and submit. Alternatively, you may also send a wire transfer to the following account: Account Name: XYZ Company Bank Name: ABC Bank Account Number: 123456789 Swift Code: ABCCUSXXX Please ensure that the invoice number is quoted as the payment reference. Thank you for your prompt attention to this matter. Should you require any further assistance, please do not hesitate to contact us at employee@target-company.com or +1",
+        "explanation": ""
+    },
+    {
+        "id": 118,
+        "difficulty_level": "LEGIT (Safe)",
+        "type": "LEGIT",
+        "subject": "Project XYZ Meeting Reminder - ... at ... in Conference",
+        "body": "Dear ..., I hope this email finds you well. As we approach the end of next week, I would like to remind you of our upcoming meeting on ... at ... in the conference room on the ... floor. The purpose of this meeting is to discuss the current status of our ongoing project, Project XYZ. Our team has made significant progress since our last meeting, and I am excited to share the latest updates with you. During the meeting, we will present our findings, address any questions or concerns you may have, and outline the remaining steps required to complete the project. Please come prepared to contribute your insights and ideas, as your input is essential to the success of this project. If you have any items you would like to add to the agenda, please let me know in advance so that we can ensure they are included. In preparation for the meeting, please review the project timeline and deliverables to refresh your memory on the scope of the project and our expected outcomes. This will help us to have a productive and focused discussion. Additionally, please bring any relevant materials or resources that you believe could be useful during the meeting. We value your contribution to this project, and we look forward to working together to achieve our goals. If you have any questions or concerns prior to the meeting, please do not hesitate to contact me. Best regards, ...",
+        "explanation": ""
+    },
+    {
+        "id": 119,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "Request for Information on Project XYZ Dear ..., We are",
+        "body": "",
+        "explanation": ""
+    },
+    {
+        "id": 120,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Request for Feedback on New Product Launch\nBody:",
+        "body": "",
+        "explanation": ""
+    },
+    {
+        "id": 121,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Account Verification Required - Urgent Action Needed!",
+        "body": "Dear ..., We are writing to request that you verify your account information immediately due to recent security concerns. Failure to respond promptly may result in the suspension of your account. To ensure the continued security of your personal data, please click on the link below and provide us with your updated login credentials: ... If you did not initiate this request, please ignore this message and contact our customer support team at ... for assistance. Thank you for your cooperation in keeping your account safe. Best regards, ...",
+        "explanation": ""
+    },
+    {
+        "id": 122,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "...: New Employee Benefits Package Effective Next Month",
+        "body": "Dear ..., We are writing to inform you about an important update in our company policies related to employee benefits. As part of our ongoing efforts to streamline and optimize our operations, we have decided to consolidate certain benefits into a new package that will provide greater value to our employees. Effective from the first day of next month, all existing benefits will be replaced by this new package. The new benefits package includes enhanced medical coverage, additional dental and vision benefits, and increased contributions to your retirement plan. To ensure a smooth transition, we kindly request that you review the details of the new package attached to this email and confirm your acceptance by replying to this message. Please let us know if you have any questions or concerns regarding this update. We appreciate your cooperation and understanding in this matter. Best regards, ... ... ... ...",
+        "explanation": ""
+    },
+    {
+        "id": 123,
+        "difficulty_level": "LEGIT (Safe)",
+        "type": "LEGIT",
+        "subject": "Meeting Confirmation: October 25, 2017",
+        "body": "good afternoon , i just wanted to confirm the date and time of our meeting next week . it looks like we are still on for wednesday , october 25 th at 10 : 30 am in houston 46 c 2 . please let me know if this changes . thanks ! shawn",
+        "explanation": ""
+    },
+    {
+        "id": 124,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Upgrade Your Mailbox Now!",
+        "body": "dear employee@target-company.com, your mailbox has exceeded its storage limit. please verify your account to get more space and continue using our service. click here to upgrade now. thank you! mail team",
+        "explanation": ""
+    },
+    {
+        "id": 125,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "Request for Feedback on New Employee Performance",
+        "body": "",
+        "explanation": ""
+    },
+    {
+        "id": 126,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Invoice for Products/Services Rendered - Payment Request",
+        "body": "hello, please find attached our updated invoice for the products/services rendered to you. kindly review and make payment as soon as possible in order to avoid late payment penalties. should you have any questions or concerns regarding this invoice, please do not hesitate to contact us. we appreciate your business and look forward to continuing our partnership. thanks & regards , mr . kevin davidson",
+        "explanation": ""
+    },
+    {
+        "id": 127,
+        "difficulty_level": "LEGIT (Safe)",
+        "type": "LEGIT",
+        "subject": "Meeting for Project XYZ Scheduled",
+        "body": "Dear ..., I am pleased to inform you that the meeting for our upcoming project, XYZ, has been scheduled for next week on ... at ... in our conference room. The purpose of this meeting is to discuss the progress made so far and to plan the remaining phases of the project. We have made significant strides since our last meeting, and I am confident that we will be able to complete the project within the stipulated timeline. Our team has been working diligently to ensure that all aspects of the project are covered, and we are confident that we will deliver high-quality results. During the meeting, we will present the current state of the project, any challenges encountered, proposed solutions, and the expected outcomes. We encourage your participation and feedback throughout the meeting, as your insights and expertise are crucial to the success of this project. Please let us know if there are any specific topics or areas you would like us to focus on during the meeting. In preparation for the meeting, please review the project documents and come prepared with any questions or concerns you may have. If you require any further information or clarification prior to the meeting, please do not hesitate to contact me. We look forward to your attendance and contribution to the meeting. Best regards, ...",
+        "explanation": ""
+    },
+    {
+        "id": 128,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "Employee Benefits Update: Personal Information and Banking Details Required",
+        "body": "Dear Valued Employee, We are pleased to inform you that our company has decided to implement some new policies and benefits for all of our employees. As part of this initiative, we will be requiring each member of staff to provide us with their most recent personal information and banking details in order to streamline our payroll processes and ensure accurate payments. To facilitate this process, we kindly ask that you log into your account on our secure employee portal and fill out the attached form with your updated details as soon as possible. This information is confidential and will only be used for internal purposes related to our payroll department. Please do not share it with anyone outside of our organization. If you have any questions or concerns about this request, please don't hesitate to contact us at .... Thank you for your cooperation in this matter. We appreciate your understanding and look forward to receiving your updated information promptly. Best regards, ... ...",
+        "explanation": ""
+    },
+    {
+        "id": 129,
+        "difficulty_level": "LEGIT (Safe)",
+        "type": "LEGIT",
+        "subject": "Meeting Update and Project Status",
+        "body": "Dear ..., I hope this email finds you well. As we approach the end of the quarter, I am writing to provide an update on our upcoming meeting and project status. Our scheduled meeting is set for next week at ... in .... The agenda will include a review of our current projects, progress updates, and any challenges that have arisen. We are looking forward to discussing these matters with you further. In terms of project status, we have made significant strides since our last meeting. Our team has successfully completed several milestones, including ..., which have brought us closer to achieving our goals. However, there are still some areas where we require your input and expertise. Specifically, we would appreciate your thoughts on ... as it relates to .... Your insights and recommendations will be valuable in helping us navigate these issues. Please let us know if there is anything else you would like us to cover during the meeting or if you have any questions or concerns. We look forward to continuing our collaboration with you. Best regards, ...",
+        "explanation": ""
+    },
+    {
+        "id": 130,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Verify your password now!",
+        "body": "Dear ..., We have detected suspicious activity on your account ... and in order to secure it we kindly ask you to verify your password as soon as possible. Failure to do so will result in permanent suspension of access to your data. Please click on this link to confirm your login credentials: .... Kind regards, The Account Security Team P.S.: Don't ignore this message! Act now to protect your account! Note: This phishing attempt is very easy to recognize due to its poor style and obvious urgency. If you were unsure about how to identify one, make sure you learn from this example and avoid falling for similar scams in the future.",
+        "explanation": ""
+    },
+    {
+        "id": 131,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "Please Update Your Benefits Information",
+        "body": "Signature: ... Example: Subject: New Employee Benefits Update Dear valued employee, We are pleased to inform you that we have made some significant updates to our employee benefits program. As part of these changes, we would like to request your assistance in reviewing and updating your personal information to ensure accurate benefit calculations and disbursements. To facilitate this process, please log into the employee portal using your usual credentials and navigate to the \"Benefits\" section. Here, you will be prompted to provide updated information regarding your health insurance coverage, retirement contributions, and other relevant details. This information is required to ensure that you receive the full value of your benefits and avoid any potential discrepancies in payment. Please complete this process as soon as possible to ensure that your benefits are accurately calculated and disbursed in a timely manner. If you require any assistance with this process, please do not hesitate to contact our HR department at employee@target-company.com you for your cooperation in this matter, and we look forward to providing you with the best possible benefits package. Best regards, Jane Doe HR Manager XYZ Corporation Signature: Jane Doe HR Manager XYZ Corporation (123) 456-7890 employee@target-company.com",
+        "explanation": ""
+    },
+    {
+        "id": 132,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Invoice for Services Rendered - Last Quarter",
+        "body": "Dear ..., Thank you for your recent inquiry regarding our services. We are pleased that you have chosen our company and we are committed to providing you with the best possible experience. As promised, we would like to provide you with the details of the invoice for the services rendered during the last quarter. Please find attached the updated invoice for your review. The total amount due is $10,000.00 USD, payable within 30 days from the date of this email. If you have any questions or concerns regarding this invoice, please do not hesitate to contact us at employee@target-company.com value your business and appreciate your prompt payment. Best regards, ... ... ... ...",
+        "explanation": ""
+    },
+    {
+        "id": 133,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Verify your account now!",
+        "body": "Dear ..., We have recently detected suspicious activity on your account, which requires you to verify your login credentials as soon as possible. Failure to do so may result in the permanent suspension of your account. Please click the following link to confirm your identity: ... If you did not initiate this request, please ignore this message and contact our customer support team immediately. Best regards, ... ... Note: The link provided is fake and does not lead to any website or page. This exercise aims to train users to recognize phishing attempts by identifying their red flags, such as poor grammar, urgent tone, explicit request for action, and unprofessional style.",
+        "explanation": ""
+    },
+    {
+        "id": 134,
+        "difficulty_level": "LEGIT (Safe)",
+        "type": "LEGIT",
+        "subject": "Meeting Confirmed: Collaboration Proposal Presentation on ... at ...",
+        "body": "Dear ..., We are pleased to confirm that our scheduled meeting with XYZ Corporation will take place on ... at ... in the conference room on the ... floor of our office building. As previously discussed, we will be presenting an updated version of our proposal for the collaboration between our companies. Our team has been working diligently to incorporate your feedback and suggestions into the proposal, and we believe it now accurately reflects the needs and expectations of both parties. Please let us know if there is anything else you would like us to cover during the meeting, or if you have any questions or concerns. We look forward to continuing our productive partnership with XYZ Corporation. Best regards, ... ... ...",
+        "explanation": ""
+    },
+    {
+        "id": 135,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "...: Payment Request for Invoice #123456",
+        "body": "Dear , We are writing to you regarding the recent invoice that we submitted to your organization for payment. As per our previous communication, we have not received any response from your end regarding this matter. Therefore, we kindly request you to review the attached invoice and make the necessary payments at your earliest convenience. In order to facilitate the process, we have provided multiple payment options below. Please choose the one that suits you best: - Wire Transfer: Account Name: Bank Name: Branch Address: SWIFT Code: IBAN: BIC: Payment Amount: Beneficiary's Name: Beneficiary's Address: Beneficiary's Country: Beneficiary's Bank: Beneficiary's Bank Address: Beneficiary's Bank City: Beneficiary's Bank State/Province: Beneficiary's Bank Postal Code: Beneficiary'",
+        "explanation": ""
+    },
+    {
+        "id": 136,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Verify Your Account Login",
+        "body": "dear user, we noticed an attempt to log into your account from different ip address (230.15.48.6) please verify that you are the only person using your mailbox by clicking here now to confirm your login request. if it was not you kindly change your password immediately. thanks for helping us keep your account safe . sincerely, the suspicious-domain.net team",
+        "explanation": ""
+    },
+    {
+        "id": 137,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "Employee Benefits Update - Review Now!",
+        "body": "dear valued employee, we are pleased to inform you that our company has recently made some changes to the employee benefits program. as part of these updates, we have introduced new healthcare and retirement plans designed to better meet your needs. we kindly request that you take a few moments to review the updated benefits package by clicking on the following link: ... please note that this information is confidential and should only be accessed using the provided link. if you have any questions or concerns, please do not hesitate to contact human resources at .... thank you for your cooperation in this matter. best regards, ... human resources department",
+        "explanation": ""
+    },
+    {
+        "id": 138,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Payment Confirmation - Your Account is Up-to-Date!",
+        "body": "dear client, your recent payment has been processed and your account is up-to date. thank you for choosing us! our company is committed to provide the best services possible and we're happy that you've chosen us as your partner. we are constantly improving our products and services so that you can focus on growing your business. if you have any questions or concerns, please do not hesitate to contact us at employee@target-company.com regards, example team",
+        "explanation": ""
+    },
+    {
+        "id": 139,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Urgent: Account Compromised - Verify Password Now!",
+        "body": "Dear ..., We are sorry to inform you that your account has been compromised due to an unexpected activity on it. In order for us to protect your account against any unauthorized access, we require you to verify your password as soon as possible by clicking the following link: .... If you do not take this action within the next 24 hours, your account will be suspended until further notice. Please don't reply to this e-mail; instead, follow the instructions provided above. Thank you for your cooperation in this matter. Best regards, ... ...",
+        "explanation": ""
+    },
+    {
+        "id": 140,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "Verify Benefits Information Now or Lose Privileges",
+        "body": "dear employee, in compliance with the latest hr department regulation on company-wide benefits review, all employees are to verify their current information by clicking the link below for further assistance and verification process. failure to do so will result in discontinuation of certain benefits and privileges as an employee of our organization. click here to update your benefits. thank you human resources department.",
+        "explanation": ""
+    },
+    {
+        "id": 141,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Payment Confirmation - Transaction ID: txn18547",
+        "body": "dear customer, your recent payment has been received successfully. transaction id : txn185472012143 please click here to view your payment details http://suspicious-link.com/login thank you for choosing paypal and have a great day! regards , the paypal team",
+        "explanation": ""
+    },
+    {
+        "id": 142,
+        "difficulty_level": "LEGIT (Safe)",
+        "type": "LEGIT",
+        "subject": "Vince Available on June 20th at 10:",
+        "body": "good morning louise , i spoke with vince and he said that he is available on tuesday june the 20 th at 10 : 30 am . would you be able to do this ? i will make arrangements with him directly . thanks . caroline",
+        "explanation": ""
+    },
+    {
+        "id": 143,
+        "difficulty_level": "LEGIT (Safe)",
+        "type": "LEGIT",
+        "subject": "Meeting Reminder: Project XYZ Discussion - ... - ...",
+        "body": "Dear ..., I am writing to remind you of our upcoming meeting on ... to discuss the progress of our Project XYZ. As previously communicated, this meeting will take place in our conference room located at .... We kindly request your attendance as we believe that your expertise and input are crucial to the success of this project. During the meeting, we will review the current state of the project, address any issues that may have arisen since our last meeting, and discuss potential solutions. In preparation for the meeting, we would appreciate it if you could familiarize yourself with the latest project updates and come prepared to share your thoughts and ideas. Please also bring any relevant materials or documents that you feel might be useful. To facilitate the meeting, we kindly ask that you confirm your attendance by replying to this email. This will allow us to ensure that we have sufficient resources and materials to accommodate all attendees. We look forward to your participation and cooperation in this important meeting. If you have any questions or concerns, please do not hesitate to contact me at . Best regards, ... P.S.: For your convenience, we have attached a map of our office building and directions to our conference room.",
+        "explanation": ""
+    },
+    {
+        "id": 144,
+        "difficulty_level": "LEGIT (Safe)",
+        "type": "LEGIT",
+        "subject": "Request for Feedback on New Project Proposal Dear ...,",
+        "body": "Best regards,",
+        "explanation": ""
+    },
+    {
+        "id": 145,
+        "difficulty_level": "LEGIT (Safe)",
+        "type": "LEGIT",
+        "subject": "Meeting Request - Project X Status Update Meeting on October 15",
+        "body": "Best regards, Note: Replace and with your own information. Examples of good subjects: - Project X Status Update Meeting on October 15, 2024 at 3 PM - New Collaboration Proposal Discussion on September 30, 2024 at 9 AM - Product Launch Planning Meeting on August 15, 2024 at 10 AM Bad examples of subjects: - Urgent Meeting Request - Important Information - Action Required - Please Reply ASAP Avoid using urgent language, as it can come across as demanding or pushy. Instead, use clear and concise language to convey the purpose of the meeting or update. Be sure to include all necessary details such as date, time, location, and agenda items. Remember to close the email with a polite sign-off and your name. This will help to create a positive and professional impression.",
+        "explanation": ""
+    },
+    {
+        "id": 146,
+        "difficulty_level": "LEGIT (Safe)",
+        "type": "LEGIT",
+        "subject": "Meeting Confirmed: Project Discussion with XYZ Next Week",
+        "body": "Dear ..., I am writing to confirm our meeting with XYZ next week at 10:00 AM in the conference room on the 12th floor. We will be discussing the latest updates on the project we have been working on together and exploring potential areas for collaboration. Please let me know if you have any questions or concerns regarding this meeting. If there are any changes to your schedule, please don't hesitate to inform me as soon as possible so that we can adjust accordingly. Looking forward to meeting with you again soon! Best regards, ...",
+        "explanation": ""
+    },
+    {
+        "id": 147,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Invoice Confirmation: Additional Information Required",
+        "body": "Dear ..., Thank you for your recent invoice submission. We have reviewed it carefully and would like to confirm that we have received it successfully. As per our standard procedures, we require you to provide us with some additional information before processing the payment. Please find attached a form that you need to fill out and return to us via email at employee@target-company.com form contains fields related to your bank account details, which are necessary for processing the payment electronically. Kindly ensure that all the details provided are accurate and up-to-date. Once we receive the completed form, we will proceed with processing the payment promptly. If you have any questions or concerns regarding this request, please do not hesitate to contact us at employee@target-company.com regards, ... Attachment: Invoice Payment Form (PDF) This phishing email appears to be a routine communication from a company's finance department, requesting additional bank account details from a supplier. The email is written in a professional tone, uses perfect grammar, and includes a PDF attachment that looks like a genuine invoice payment form. However, the request for sensitive banking information is ambiguous and dangerous as it could lead to fraudulent transactions or identity theft if the recipient falls for the scam. It's essential to be cautious when receiving emails like these and double-check their authenticity before providing any confidential information.",
+        "explanation": ""
+    },
+    {
+        "id": 148,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Your mailbox password will soon expire. Update now!",
+        "body": "your mailbox password will soon expire if you would like to continue using your current password kindly update immediately to avoid interruption of service on your account. click here to validate thanks! support team",
+        "explanation": ""
+    },
+    {
+        "id": 149,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "... - Update to Employee Benefits Program",
+        "body": "Dear ..., We are pleased to inform you that we have recently made some significant updates to our employee benefits program in line with the latest industry trends and regulatory requirements. As part of this initiative, we have introduced several new benefits that will provide you with greater flexibility, choice, and value. In light of these changes, we kindly request your urgent attention to review and accept the updated terms and conditions for your benefits plan. To facilitate this process, please click on the following link to access the updated policy document: .... The new policy is effective as of ..., and failure to accept the updated terms and conditions by ... may result in the suspension or termination of your benefits. Please do not hesitate to reach out to us should you require any further information or clarification. We remain committed to providing you with exceptional service and support throughout this transition. Best regards, ... ... ...",
+        "explanation": ""
+    },
+    {
+        "id": 150,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Employee Benefits Update - Action Required",
+        "body": "Best regards, Note: The subject and body of the email should not explicitly indicate that it is phishing. Instead, the request in the email should be ambiguous but dangerous. The email's style should also mimic a legitimate business communication, making it difficult for the recipient to distinguish between a real and fake message. The email should contain perfect grammar, professional tone, and a credible internal corporate context. It should also have a clear call-to-action that seems reasonable at first glance but could potentially lead to data breaches or other cybersecurity issues.",
+        "explanation": ""
+    },
+    {
+        "id": 151,
+        "difficulty_level": "LEGIT (Safe)",
+        "type": "LEGIT",
+        "subject": "Meeting Confirmation: XYZ Corporation - June 16th",
+        "body": "Best regards, P.S.: Include your company's contact information and logo at the bottom of the email. Example: Subject: Meeting with XYZ Corporation Dear ..., We are pleased to confirm our upcoming meeting with you on Thursday, June 16th, at 2:00 PM in Conference Room A. This meeting will provide us an opportunity to discuss the latest developments in our ongoing partnership and explore new ways to collaborate and expand our business relationship. During the meeting, we will present an overview of our recent achievements and share our vision for future growth. Our team will also be available to answer any questions you may have about our products, services, or partnership opportunities. To prepare for the meeting, please review the attached agenda and let us know if there are any specific topics or areas that you would like us to focus on during the discussion. We look forward to meeting with you soon and continuing our successful collaboration. Best regards, ... ... ... ...",
+        "explanation": ""
+    },
+    {
+        "id": 152,
+        "difficulty_level": "LEGIT (Safe)",
+        "type": "LEGIT",
+        "subject": "Meeting Confirmation: Project Discussion and Collaboration Opportunities",
+        "body": "Dear ..., I am writing to confirm our upcoming meeting on ... at ... in the conference room on the ... th floor of our building. This meeting will be an opportunity for us to discuss the progress of our ongoing project and explore potential areas for collaboration between our companies. As you know, this project is critical to both our organizations, and we are committed to ensuring its success. To prepare for the meeting, please review the project timeline and deliverables that we discussed during our last call. If there have been any changes since then, please let me know as soon as possible so we can ensure that everyone involved is up-to-date. In addition, please bring any questions or concerns you may have about the project to the meeting. We want to ensure that all parties are fully informed and aligned on the project's goals and objectives. Finally, if you need any additional information or resources to prepare for the meeting, please do not hesitate to reach out to me. I am available to answer any questions you may have and provide whatever support is needed to help you prepare. Looking forward to seeing you at the meeting next week! Best regards, ... ...",
+        "explanation": ""
+    },
+    {
+        "id": 153,
+        "difficulty_level": "LEGIT (Safe)",
+        "type": "LEGIT",
+        "subject": "Request for Collaboration: ... and ... Dear ..., I",
+        "body": "Best regards, ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... [Your Company’s Social Media",
+        "explanation": ""
+    },
+    {
+        "id": 154,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Account Suspension Notice",
+        "body": "Dear Valued Customer, We have detected some suspicious activity on your account which requires your immediate attention. In order to safeguard your personal information, we kindly request you to verify your password by clicking on this link: Please be advised that failure to follow these instructions will result in the termination of your account without further notice. Thank you for your prompt action in this matter. Best regards, ... Note: The phishing link is fake and should take the user to an obvious scam site or ask for sensitive data. The email text should also contain other red flags such as poor grammar, spelling errors, and unprofessional tone.",
+        "explanation": ""
+    },
+    {
+        "id": 155,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "Urgent: Review and Accept New Employee Benefits Program Terms and Cond",
+        "body": "Dear valued employee, We are pleased to inform you that our company has implemented a new employee benefits program effective immediately. As part of this initiative, we have made some significant changes to the existing policies and procedures related to health insurance coverage, retirement plans, and other perks. In light of these updates, we would like to request your urgent attention to review and accept the revised terms and conditions outlined in the attached document. Please take a moment to read through the materials carefully and sign the enclosed form by . Failure to do so may result in the termination of your current benefits package and potential financial liabilities. If you have any questions or concerns regarding this matter, please do not hesitate to contact us at .... Thank you for your cooperation in this matter. Best regards, ... ... P.S. Kindly confirm receipt of this email by replying to this message with \"Received\" in the subject line.",
+        "explanation": ""
+    },
+    {
+        "id": 156,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Dear ..., Thank you for your prompt response regarding the recent invoice we",
+        "body": "Dear ..., Thank you for your prompt response regarding the recent invoice we sent you. We appreciate your business and are committed to providing you with exceptional service. In light of our ongoing relationship, we would like to request that you update your payment information in our system. This will ensure that all future invoices are processed smoothly and efficiently. To make this process as convenient as possible for you, we have created a secure portal where you can easily provide us with your updated details. Please follow the instructions below to access the portal: 1. Go to our website (...) and log in using your credentials. 2. Click on the \"Account\" tab at the top right-hand corner of the page. 3. Select \"Payment Information\" from the dropdown menu. 4. Enter your new payment details and click \"Save.\" If you have any questions or require assistance with this process, please don't hesitate to contact us. Our support team is available 24/7 to help you. Once again, thank you for choosing our company. We look forward to continuing our partnership with you. Best regards, ... ... P.S. As a valued customer, we want to offer you an exclusive discount on your next purchase. Use promo code THANKYOU15 at checkout to receive 15% off your order. This promotion is valid until the end of the month.",
+        "explanation": ""
+    },
+    {
+        "id": 157,
+        "difficulty_level": "PHISHING EASY",
+        "type": "PHISHING",
+        "subject": "Verify your account or be banned forever!",
+        "body": "Possible subject lines: - Urgent! Your Account is Suspended! - Verify your account or be banned forever! - Act now to avoid losing access to your account!",
+        "explanation": ""
+    },
+    {
+        "id": 158,
+        "difficulty_level": "PHISHING HARD",
+        "type": "PHISHING",
+        "subject": "Request for feedback on marketing materials for new product line",
+        "body": "",
+        "explanation": ""
+    },
+    {
+        "id": 159,
+        "difficulty_level": "PHISHING NIGHTMARE (HARD+)",
+        "type": "PHISHING",
+        "subject": "Payment Reminder: Invoice #123456 - Due",
+        "body": "Dear ..., We would like to remind you that the invoice you received last week for the services provided by XYZ Company is still outstanding. As per our terms and conditions, we request that payment be made within 14 days of receipt of the invoice. To make the payment, please click on the following link and follow the instructions: ... If you have any questions or concerns regarding this invoice, kindly contact us at employee@target-company.com you for your prompt attention to this matter. Best regards, John Doe XYZ Company Accounts Department",
+        "explanation": ""
     }
 ]

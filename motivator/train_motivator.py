@@ -22,8 +22,8 @@ MODEL_NAME = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
 
 # PERCORSI (Assicurati che il file JSON sia qui)
 # Se il file è nella cartella "motivator", aggiusta il path
-JSON_PATH = "C:/Users/daisl/Desktop/SeriousGamePhishing2/motivator/dataset_with_expl.json"
-OUTPUT_DIR = "models/tinyllama_motivator_v1"
+JSON_PATH = "D:/SeriousGamePhishing2/motivator/dataset_with_expl_v2.json"
+OUTPUT_DIR = "models/tinyllama_motivator_v2"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
@@ -150,7 +150,7 @@ def main():
         packing=False,
 
         # IPERPARAMETRI PER DATASET PICCOLO (60 esempi)
-        num_train_epochs=15,  # Più epoche perché i dati sono pochi
+        num_train_epochs=5,  # 5 epoche per evitare overfitting ma leggere i dati piu volte
         per_device_train_batch_size=2,  # Basso per stabilità
         gradient_accumulation_steps=4,
         learning_rate=2e-4,

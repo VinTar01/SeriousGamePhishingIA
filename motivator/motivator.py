@@ -41,56 +41,48 @@ class MotivatorAI:
     def generate_explanation(self, email_body, is_phishing):
         """
         Genera una spiegazione didattica guidata dalla verità (Ground Truth).
+        Allineata al formato del dataset v2 (Italiano).
         """
 
         # 1. Costruiamo un'istruzione specifica in base alla verità nota.
-        # Questo forza il modello a cercare conferme del perché è Phishing o Legit,
-        # invece di provare a indovinare (evitando così allucinazioni).
+        # Aggiungiamo "Rispondi in italiano" per bloccare l'uso dell'inglese.
         if is_phishing:
             instruction = (
-                "You are a Cybersecurity Instructor. The following email is a PHISHING ATTACK. "
-                "Explain briefly which elements (sender, urgency, links) make it suspicious."
+                "Below is an email. You are a Cybersecurity Instructor. This email is a PHISHING ATTACK. "
+                "Analyze it and explain briefly why it is suspicious. Rispondi in italiano."
             )
         else:
             instruction = (
-                "You are a Cybersecurity Instructor. The following email is SAFE and LEGITIMATE. "
-                "Explain briefly why it looks professional and safe (correct sender, no urgency)."
+                "Below is an email. You are a Cybersecurity Instructor. This email is SAFE and LEGITIMATE. "
+                "Analyze it and explain briefly why it looks professional. Rispondi in italiano."
             )
 
-        # 2. Prompt Alpaca modificato dinamicamente
-        # Usiamo f-string per iniettare l'istruzione, e {{}} per lasciare il placeholder dell'input
-        alpaca_prompt = f"""Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.
-
-### Instruction:
-{instruction}
-
-### Input:
-{{}}
-
-### Response:
-"""
-        # 3. Prepariamo l'input
-        # Tagliamo l'email a 800 caratteri per evitare errori di memoria o contesti troppo lunghi
-        prompt = alpaca_prompt.format(email_body[:800])
+        # 2. TEMPLATE CORRETTO PER IL TUO FINE-TUNING
+        # Usiamo esattamente "### Email:" e "### Explanation:" come nel file JSON di addestramento
+        prompt = (
+            f"{instruction}\n\n"
+            f"### Email:\n{email_body[:800]}\n\n"
+            f"### Explanation:\n"
+        )
 
         inputs = self.tokenizer(prompt, return_tensors="pt").to(self.model.device)
 
-        # 4. Generazione
+        # 3. Generazione
         with torch.no_grad():
             outputs = self.model.generate(
                 **inputs,
-                max_new_tokens=100,  # Risposta breve e concisa
-                temperature=0.6,  # Creatività bilanciata per variare le frasi
+                max_new_tokens=120,  # Abbastanza per la spiegazione
+                temperature=0.3,  # <--- ABBASSATA a 0.3 (Meno creativa, usa ciò che ha studiato)
                 do_sample=True,
                 pad_token_id=self.tokenizer.eos_token_id
             )
 
         decoded = self.tokenizer.decode(outputs[0], skip_special_tokens=True)
 
-        # 5. Pulizia Output
-        if "### Response:" in decoded:
-            response = decoded.split("### Response:")[-1].strip()
+        # 4. Pulizia Output basata sul nuovo template
+        if "### Explanation:" in decoded:
+            response = decoded.split("### Explanation:")[-1].strip()
         else:
-            response = decoded
+            response = decoded.strip()
 
         return response

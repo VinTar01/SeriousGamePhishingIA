@@ -6,8 +6,8 @@ from tqdm import tqdm
 # ======================
 # CONFIG
 # ======================
-INPUT_CSV = "C:/Users/daisl/Desktop/SeriousGamePhishing2/dataset/raw/dataset_finale_ready_v3.csv"
-OUTPUT_JSONL = "C:/Users/daisl/Desktop/SeriousGamePhishing2/dataset/processed/dataset_instruction.jsonl"
+INPUT_CSV = "D:/SeriousGamePhishing2/dataset/raw/dataset_finale_ready_v3.csv"
+OUTPUT_JSONL = "D:/SeriousGamePhishing2/dataset/processed/dataset_instruction.jsonl"
 
 # ======================
 # LOAD
